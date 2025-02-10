@@ -1,0 +1,139 @@
+import pandas as pd
+import re
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+
+# Conduit types, Wire types
+
+# Load data
+date_pattern = re.compile(r'\b(?:\d{4}[-/]\d{2}[-/]\d{2}|\d{2}[-/]\d{2}[-/]\d{4}|\d{2}[-/]\d{2}[-/]\d{2})\b')
+half_inch_exp = re.compile(r'')
+three_quarter_expr = re.compile(r'')
+one_inch_expr = re.compile(r'')
+one_and_quarter = re.compile(r'"\b[1]\s[1][/][4][\"]{,1}\b"gm')
+
+wire_terms = {'wire', 'cable', 'thhn', 'xhhw', 'awg', 'stranded', 'thw', 'romex', '12/2','14/2', '20a', '30a', '4/0',
+              '#10','# 10', '12/4', '#12','# 12', '#14', '# 14', '#16', 'cat5', 'cat6'}
+conduit_terms ={'pvc', 'ent', 'emt', 'flex', 'pipe', 'cndt', 'conduit', 'grc'}
+ent_terms = ['ent', 'smurf']
+emt_terms = ['emt']
+grc_terms = ['grc', 'rmc', 'steel', 'galva', 'rigid']
+pvc_terms = ['pvc']
+flex_terms = ['flex', 'carflex', 'sealtight', 'seal tight', 'liquid','liq tite', 'liq-tite']
+
+conduit_exclude_terms = {'elbow', '90', '45', 'sleeve', 'conn', 'box', 'strap', 'stra', 'changeover', 'adapt', 'coup', 'bulb', 'cap',
+                 'bush', 'coul', 'conen', 'strut', 'comp', 'nipp', 'male', 'female', 'adap', 'mount', 'tie', 'nut'
+    , 'glue', 'oil', 'lub', 'hang', 'stapl', 'tray', 'city', 'rent', 'degree', 't8', 'watt', 'ext', 'fit',
+                 'brush', 'bell', 'cplg', 'lock', '401', 'body', 'clamp', 'center', 'equip', 'dent', 'hub', 'insul'
+    , 'return', 'ment', 'material', 'caddy', 'plug', 'tape', 'vent', 'paint', 'can', 'collar', 'insta'
+    , 'saw', 'sand', 'light', 'clip', 'cadd', 'ground', 'support', 'piston', 'hous', 'measur', 'seal'
+    , 'bender', 'cover', 'ream', 'clam', 'camera', 'cutter', 'die', 'rework', 'suppo','blow', 'repair', 'vise', 'stand',
+        'repair', 'cla', 'wrap', 'calmp', 'groun', 'back', 'stub', 'screw','crimp','lug','gang','recept','rig','order', 'accent',
+        'service','order','recess','term','entry','toglock','pencil','dfac','sconce','assembly','century','chair','raceway',
+        'presentation','tower','offset','supp','sharpie','marker','pen','branch','acorn','flange','fee','tent','assem',
+        '20A','30A','40A','50A','60A','70A','80A','90A','100A','110A','120A','130A','140A','150A','160A','170A','180A','190A','200A',} 
+
+wire_exclude_terms = {'screw', 'screws', 'jumper', 'nut', 'kit', 'washer', 'lug', 'pull', 'fuse', 'photocell', 'stud','head',
+                       'adapter', 'bracket', 'racetrack', 'tap', 'square', 'break', 'fault', 'switch', 'tie', 'push', 
+                       'recept','tapcon',  'bolt', 'anchor', 'hanger', 'strap', 'clamp', 'bracket','book',
+                       'connector', 'cover', 'plate', 'box', 'screws', 'nut', 'kit', 'washer','wireway', 'duct', 'tray','cap',
+                       'TY275M','rcpt','tug', '30A', '20A', '15A', '40A', '50A', '60A', '70A', '80A', '90A', '100A', '110A', '120A',
+                       'nvent','cutter','paint','marker','clip'}
+
+diameter_class = [{'half':["1/2"]}, {'three_quarter':["3/4"]}, {'one':["1"]}]
+
+emt_labels = {'1/2" CONDUIT - EMT ','3/4" CONDUIT - EMT ','1" CONDUIT - EMT ','1-1/4" CONDUIT - EMT ',
+                        '1-1/2" CONDUIT - EMT ','2" CONDUIT - EMT ','2-1/2" CONDUIT - EMT ','3" CONDUIT - EMT ',
+                        '3-1/2" CONDUIT - EMT ','4" CONDUIT - EMT '}
+ent_patterns = {'3/4" CONDUIT - ENT',
+                '1" CONDUIT - ENT',
+                '1-1/4" CONDUIT - ENT'}
+pvc_patterns ={'1/2" CONDUIT - PVC ','3/4" CONDUIT - PVC ','1" CONDUIT - PVC ','1-1/4" CONDUIT - PVC ',
+              '1-1/2" CONDUIT - PVC ','2" CONDUIT - PVC ','2-1/2" CONDUIT - PVC ','3" CONDUIT - PVC ',
+              '3-1/2" CONDUIT - PVC ','4" CONDUIT - PVC '}
+grc_patterns = {'1/2" CONDUIT - GRC','3/4" CONDUIT - GRC','1" CONDUIT - GRC','1-1/4" CONDUIT - GRC',
+              '1-1/2" CONDUIT - GRC','2" CONDUIT - GRC','2-1/2" CONDUIT - GRC','3" CONDUIT - GRC',
+              '3-1/2" CONDUIT - GRC','4" CONDUIT - GRC'}
+flex_patterns = {'FLEX/SEALTIGHT/CARFLEX','1/2" FLEX/SEALTIGHT/CARFLEX','3/4" FLEX/SEALTIGHT/CARFLEX',
+               '1" FLEX/SEALTIGHT/CARFLEX','1-1/4" FLEX/SEALTIGHT/CARFLEX','1-1/2" FLEX/SEALTIGHT/CARFLEX',
+               '2" FLEX/SEALTIGHT/CARFLEX','2-1/2" FLEX/SEALTIGHT/CARFLEX','3" FLEX/SEALTIGHT/CARFLEX',
+               '3-1/2" FLEX/SEALTIGHT/CARFLEX','4" FLEX/SEALTIGHT/CARFLEX'}
+wire_patterns = {'#14-#6 MC/ROMEX CABLE':re.compile(r'\b#14[-#6]\b|\bMC\b|\bROMEX\b'),
+               'LOW VOLTAGE CABLE':re.compile(r'\bLOW\b|\bVOLTAGE\b|\bCABLE\b'),
+               'DEVICE/JUNCTION BOX MAKEUP':re.compile(r'\bDEVICE\b|\bJUNCTION\b|\bBOX\b|\bMAKEUP\b'),
+               '#14 WIRE THHN/XHHW/OTHER':re.compile(r'\b#14\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#12 WIRE THHN/XHHW/OTHER':re.compile(r'\b#12\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#10 WIRE THHN/XHHW/OTHER':re.compile(r'\b#10\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#8 WIRE THHN/XHHW/OTHER':re.compile(r'\b#8\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#6 WIRE THHN/XHHW/OTHER':re.compile(r'\b#6\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#4-#1/0 MC/ROMEX CABLE':re.compile(r'\b#4[-#1/0]\b|\bMC\b|\bROMEX\b'),
+               '#2/0 AND LARGER MC/ROMEX CABLE':re.compile(r'\b#2/0\b|\bLARGER\b|\bMC\b|\bROMEX\b'),
+               '#4 WIRE THHN/XHHW/OTHER':re.compile(r'\b#4\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#3 WIRE THHN/XHHW/OTHER':re.compile(r'\b#3\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#2 WIRE THHN/XHHW/OTHER':re.compile(r'\b#2\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#1 WIRE THHN/XHHW/OTHER':re.compile(r'\b#1\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#1/0 WIRE THHN/XHHW/OTHER':re.compile(r'\b#1/0\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#2/0 WIRE THHN/XHHW/OTHER':re.compile(r'\b#2/0\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#3/0 WIRE THHN/XHHW/OTHER':re.compile(r'\b#3/0\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#4/0 WIRE THHN/XHHW/OTHER':re.compile(r'\b#4/0\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#250 WIRE THHN/XHHW/OTHER':re.compile(r'\b#250\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#300 WIRE THHN/XHHW/OTHER':re.compile(r'\b#300\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#350 WIRE THHN/XHHW/OTHER':re.compile(r'\b#350\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#400 WIRE THHN/XHHW/OTHER':re.compile(r'\b#400\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#500 WIRE THHN/XHHW/OTHER':re.compile(r'\b#500\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#600 WIRE THHN/XHHW/OTHER':re.compile(r'\b#600\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
+               '#750 WIRE THHN/XHHW/OTHER':re.compile(r'\b#750\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),}
+size_patterns = {
+    '1/2"': re.compile(r'\b1/2\b|\b0.5\b'),
+    '3/4"': re.compile(r'\b3/4\b|\b0.75\b'),
+    '1"': re.compile(r'\b1\b(?!/4)'),
+    '1-1/4"': re.compile(r'\b1[- ]?1/4\b'),
+    '1-1/2"': re.compile(r'\b1[- ]?1/2\b'),
+    '2"': re.compile(r'\b2\b'),
+    '2-1/2"': re.compile(r'\b2[- ]?1/2\b'),
+    '3"': re.compile(r'\b3\b'),
+    '3-1/2"': re.compile(r'\b3[- ]?1/2\b'),
+    '4"': re.compile(r'\b4\b')
+}
+
+df = pd.read_csv("./assets/invoice_descriptions.csv")
+
+def classify_item(description):
+    if isinstance(description, str) and date_pattern.search(description) is None:
+        desc_lower = description.lower()
+        if any(term.lower() in desc_lower for term in wire_terms) and not any(term.lower() in desc_lower for term in wire_exclude_terms):
+            return 'Wire'
+        elif any(term in desc_lower for term in conduit_terms) and not any(term in desc_lower for term in conduit_exclude_terms):
+            # if any(term in desc_lower for term in ent_terms):
+            #     return 'Conduit-ENT'
+            # elif any(term in desc_lower for term in flex_terms):
+            #     return 'Conduit-FLEX'
+            # elif any(term in desc_lower for term in emt_terms):
+            #     return 'Conduit-EMT'
+            # elif any(term in desc_lower for term in grc_terms):
+            #     return 'Conduit-GRC'
+            # elif any(term in desc_lower for term in pvc_terms):
+            #     return 'Conduit-PVC'
+            return 'Conduit'
+    return 'Exclude'
+
+df['Label'] = df['Description'].apply(classify_item)
+
+# df = df[df['Label'] == 'Exclude']
+# ...existing code...
+
+# Get 1000 random rows from the DataFrame
+random_sample_df = df.groupby('Label', group_keys=False,).apply(lambda x: x.sample(n=1000)).reset_index(drop=True)
+
+# Save the random sample to a new CSV file
+random_sample_df.to_csv('./assets/random_sample_classified_items.csv', index=False)
+df.to_csv('./assets/classified_items.csv', index=False)
+
+# Filter the DataFrame to get records containing the term 'bell end'
+bell_end_df = df[df['Description'].str.contains('bell end', case=False, na=False)]
+
+# Get 100 random rows from the filtered DataFrame
+random_bell_end_df = bell_end_df.sample(n=75, random_state=42)
+
+# Save the random sample to a new CSV file
+random_bell_end_df.to_csv('./assets/random_bell_end_items.csv', index=False)
