@@ -14,31 +14,33 @@ one_and_quarter = re.compile(r'"\b[1]\s[1][/][4][\"]{,1}\b"gm')
 
 wire_terms = {'wire', 'cable', 'thhn', 'xhhw', 'awg', 'stranded', 'thw', 'romex', '12/2','14/2', '20a', '30a', '4/0',
               '#10','# 10', '12/4', '#12','# 12', '#14', '# 14', '#16', 'cat5', 'cat6'}
-conduit_terms ={'pvc', 'ent', 'emt', 'flex', 'pipe', 'cndt', 'conduit', 'grc'}
+conduit_terms = {'cndt', 'conduit', 'emt', 'ent', 'flex', 'grc', 'pipe', 'pvc', 'smurf'}
 ent_terms = ['ent', 'smurf']
 emt_terms = ['emt']
 grc_terms = ['grc', 'rmc', 'steel', 'galva', 'rigid']
 pvc_terms = ['pvc']
 flex_terms = ['flex', 'carflex', 'sealtight', 'seal tight', 'liquid','liq tite', 'liq-tite']
 
-conduit_exclude_terms = {'elbow', '90', '45', 'sleeve', 'conn', 'box', 'strap', 'stra', 'changeover', 'adapt', 'coup', 'bulb', 'cap',
-                 'bush', 'coul', 'conen', 'strut', 'comp', 'nipp', 'male', 'female', 'adap', 'mount', 'tie', 'nut'
-    , 'glue', 'oil', 'lub', 'hang', 'stapl', 'tray', 'city', 'rent', 'degree', 't8', 'watt', 'ext', 'fit',
-                 'brush', 'bell', 'cplg', 'lock', '401', 'body', 'clamp', 'center', 'equip', 'dent', 'hub', 'insul'
-    , 'return', 'ment', 'material', 'caddy', 'plug', 'tape', 'vent', 'paint', 'can', 'collar', 'insta'
-    , 'saw', 'sand', 'light', 'clip', 'cadd', 'ground', 'support', 'piston', 'hous', 'measur', 'seal'
-    , 'bender', 'cover', 'ream', 'clam', 'camera', 'cutter', 'die', 'rework', 'suppo','blow', 'repair', 'vise', 'stand',
-        'repair', 'cla', 'wrap', 'calmp', 'groun', 'back', 'stub', 'screw','crimp','lug','gang','recept','rig','order', 'accent',
-        'service','order','recess','term','entry','toglock','pencil','dfac','sconce','assembly','century','chair','raceway',
-        'presentation','tower','offset','supp','sharpie','marker','pen','branch','acorn','flange','fee','tent','assem',
-        '20A','30A','40A','50A','60A','70A','80A','90A','100A','110A','120A','130A','140A','150A','160A','170A','180A','190A','200A',} 
+conduit_exclude_terms = {'100A', '110A', '120A', '130A', '140A', '150A', '160A', '170A', '180A', '190A', '200A', '20A', '30A',
+                         '401', '40A', '45', '50A', '60A', '70A', '80A', '90', '90A', 'accent', 'acorn', 'adap', 'adapt', 'assem',
+                         'assembly', 'back', 'bell', 'bender', 'blow', 'body', 'box', 'branch', 'brush', 'bulb', 'bush', 'cadd',
+                         'caddy', 'calmp', 'camera', 'can', 'cap', 'center', 'century', 'chair', 'changeover', 'city', 'cla',
+                         'clam', 'clamp', 'clip', 'collar', 'comp', 'conen', 'conn', 'coul', 'coup', 'cover', 'cplg', 'crimp',
+                         'cutter', 'degree', 'dent', 'dfac', 'die', 'elbow', 'entry', 'equip', 'ext', 'fee', 'female', 'fit',
+                         'flange', 'gallon', 'gang', 'glue', 'groun', 'ground', 'hang', 'heater', 'hous', 'hub', 'insta', 'insul',
+                         'lift', 'light', 'lock', 'lub', 'lug', 'male', 'marker', 'material', 'measur', 'ment', 'mount', 'nipp',
+                         'nut', 'offset', 'oil', 'order', 'paint', 'pen', 'pencil', 'piston', 'plug', 'presentation', 'raceway',
+                         'ream', 'recept', 'recess', 'rent', 'repair', 'return', 'rework', 'rig', 'rod', 'sand', 'saw', 'sconce',
+                         'screw', 'seal', 'service', 'set', 'sharpie', 'sleeve', 'stand', 'stapl', 'stra', 'strap', 'strut', 'stub',
+                         'supp', 'suppo', 'support', 't8', 'tape', 'tent', 'term', 'tie', 'toglock', 'tower', 'tray', 'vent',
+                         'vise', 'watt', 'wrap', 'pick', 'ball', 'spray', 'reduc', 'xentry', 'floresc', 'mitsubishi', 'snap', 'enclosure',
+                         'oz', 'weather head', 'weatherhed'} 
 
-wire_exclude_terms = {'screw', 'screws', 'jumper', 'nut', 'kit', 'washer', 'lug', 'pull', 'fuse', 'photocell', 'stud','head',
-                       'adapter', 'bracket', 'racetrack', 'tap', 'square', 'break', 'fault', 'switch', 'tie', 'push', 
-                       'recept','tapcon',  'bolt', 'anchor', 'hanger', 'strap', 'clamp', 'bracket','book',
-                       'connector', 'cover', 'plate', 'box', 'screws', 'nut', 'kit', 'washer','wireway', 'duct', 'tray','cap',
-                       'TY275M','rcpt','tug', '30A', '20A', '15A', '40A', '50A', '60A', '70A', '80A', '90A', '100A', '110A', '120A',
-                       'nvent','cutter','paint','marker','clip'}
+wire_exclude_terms = {'100A', '110A', '120A', '15A', '20A', '30A', '40A', '50A', '60A', '70A', '80A', '90A', 'TY275M', 'adapter',
+                      'anchor', 'bolt', 'book', 'box', 'bracket', 'break', 'cap', 'clamp', 'clip', 'connector', 'cover', 'cutter',
+                      'duct', 'fault', 'fuse', 'hanger', 'head', 'jumper', 'kit', 'lug', 'marker', 'nut', 'nvent', 'paint', 'photocell',
+                      'plate', 'pull', 'push', 'racetrack', 'rcpt', 'recept', 'screw', 'screws', 'square', 'strap', 'stud', 'switch',
+                      'tap', 'tapcon', 'tie', 'tray', 'tug', 'washer', 'wireway', }
 
 diameter_class = [{'half':["1/2"]}, {'three_quarter':["3/4"]}, {'one':["1"]}]
 
@@ -96,7 +98,10 @@ size_patterns = {
     '4"': re.compile(r'\b4\b')
 }
 
+
 df = pd.read_csv("./assets/invoice_descriptions.csv")
+
+# print(sorted(wire_exclude_terms))
 
 def classify_item(description):
     if isinstance(description, str) and date_pattern.search(description) is None:
@@ -117,23 +122,24 @@ def classify_item(description):
             return 'Conduit'
     return 'Exclude'
 
+
 df['Label'] = df['Description'].apply(classify_item)
 
-# df = df[df['Label'] == 'Exclude']
+# df = df[df['Label'] == 'Wire']
 # ...existing code...
 
 # Get 1000 random rows from the DataFrame
-random_sample_df = df.groupby('Label', group_keys=False,).apply(lambda x: x.sample(n=1000)).reset_index(drop=True)
+random_sample_df = df.groupby('Label', group_keys=False,).apply(lambda x: x.sample(n=1500)).reset_index(drop=True)
 
 # Save the random sample to a new CSV file
 random_sample_df.to_csv('./assets/random_sample_classified_items.csv', index=False)
 df.to_csv('./assets/classified_items.csv', index=False)
 
 # Filter the DataFrame to get records containing the term 'bell end'
-bell_end_df = df[df['Description'].str.contains('bell end', case=False, na=False)]
+# bell_end_df = df[df['Description'].str.contains('bell end', case=False, na=False)]
 
 # Get 100 random rows from the filtered DataFrame
-random_bell_end_df = bell_end_df.sample(n=75, random_state=42)
+# random_bell_end_df = bell_end_df.sample(n=75, random_state=42)
 
 # Save the random sample to a new CSV file
-random_bell_end_df.to_csv('./assets/random_bell_end_items.csv', index=False)
+# random_bell_end_df.to_csv('./assets/random_bell_end_items.csv', index=False)

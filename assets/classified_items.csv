@@ -190,7 +190,7 @@ CARLON B455H -  Four Gang El,,Exclude
 " 9900A 100kVA Maintenance Byp
  9900AEGIS 100kVA VRLA Batter",,Exclude
 " Mitsubishi UPS99AE-EB0100KA
-1""""CONDUIT-EMT""",,Conduit
+1""""CONDUIT-EMT""",,Exclude
 "1""CONDUIT-PVC40",,Conduit
 "1""CONNCOMPSTL-EMT",,Exclude
 "1""COUPLINGCOMPSTL-EMT",,Exclude
@@ -10692,7 +10692,7 @@ $VS RED - SWX 123-RD,,Exclude
 "1"" Set screw coupling",,Exclude
 "1"" Single hole Bell Boxes",,Exclude
 "1"" Sleeves",,Exclude
-"1"" Smurf",,Exclude
+"1"" Smurf",,Conduit
 "1"" Squeeze Connector, Die Cast",,Exclude
 "1"" Stand Off Straps ( Minnies)",,Exclude
 "1"" Stand off straps",,Exclude
@@ -10999,8 +10999,8 @@ $VS RED - SWX 123-RD,,Exclude
 "1"" sheet rock screws",,Exclude
 "1"" single gang raised 4 sq rin",,Exclude
 "1"" smurf connectors",,Exclude
-"1"" smurf gray",,Exclude
-"1"" smurf gray 750' reels",,Exclude
+"1"" smurf gray",,Conduit
+"1"" smurf gray 750' reels",,Conduit
 "1"" ss emt connectors",,Exclude
 "1"" ss emt coupling",,Exclude
 "1"" st flex conn.",,Exclude
@@ -11031,7 +11031,7 @@ $VS RED - SWX 123-RD,,Exclude
 "1"" to 1/2"" Reducing Washers",,Exclude
 "1"" to 1/2"" reducing bushing",,Exclude
 "1"" to 1/2"" reducing washer",,Exclude
-"1"" to 3/4"" PVC Conduit Reducer",,Conduit
+"1"" to 3/4"" PVC Conduit Reducer",,Exclude
 "1"" to 3/4"" RE Bushing",,Exclude
 "1"" to 3/4"" RE Bushings",,Exclude
 "1"" to 3/4"" Reducing Bushings",,Exclude
@@ -11196,7 +11196,7 @@ $VS RED - SWX 123-RD,,Exclude
 1'' EMT Strut Straps,,Exclude
 1'' EMT compression connectors,,Exclude
 1'' EMT compression couplings ,,Exclude
-1'' ENT SNAP-ON MA,,Conduit
+1'' ENT SNAP-ON MA,,Exclude
 1'' FLEX,,Conduit
 1'' GRC OVER 237948,,Conduit
 1'' GRC OVER QT 006701,,Conduit
@@ -11732,7 +11732,7 @@ $VS RED - SWX 123-RD,,Exclude
 "1-1/2"" service entrance cap",,Exclude
 "1-1/2"" strut straps",,Exclude
 "1-1/2"" strut straps universal",,Exclude
-"1-1/2"" to 1"" PVC Conduit Reduc",,Conduit
+"1-1/2"" to 1"" PVC Conduit Reduc",,Exclude
 "1-1/2"" to 1-1/4"" RE Bushing",,Exclude
 "1-1/2"" unistrut straps",,Exclude
 "1-1/2"" weatherproof  ko seal",,Exclude
@@ -11843,7 +11843,7 @@ $VS RED - SWX 123-RD,,Exclude
 "1-1/4 "" PVC 90 DEGREE ELBOW S",,Exclude
 "1-1/4 "" PVC 90 DEGREE ELBOW SC",,Exclude
 "1-1/4 ""LB"" CONDUIT BODIES",,Exclude
-1-1/4 - 1-1/2 Pvc Reducing Cou,,Conduit
+1-1/4 - 1-1/2 Pvc Reducing Cou,,Exclude
 1-1/4 2SCR ADAPT,,Exclude
 1-1/4 2SCR ADAPT CONN,,Exclude
 "1-1/4 4"" SQ-RND Dev Ring 3-1/",,Exclude
@@ -12216,7 +12216,7 @@ $VS RED - SWX 123-RD,,Exclude
 1-1/4-INCH IRON BENDER,,Exclude
 1-1/4-STEEL THINWALL CONDUIT,,Conduit
 1-1/4IN GALV COUPLNG,,Exclude
-1-1/4IN STEEL-FLEX-REDUC-WALLC,,Conduit
+1-1/4IN STEEL-FLEX-REDUC-WALLC,,Exclude
 1-1/4IN THREADED CONDUIT GROUN,,Exclude
 1-1/4S40 10F,,Exclude
 1-1/4X6 GALVANIZED NIPPLE,,Exclude
@@ -12260,7 +12260,7 @@ $VS RED - SWX 123-RD,,Exclude
 1-1/4” Steel Locknuts,,Exclude
 1-1/4” Steel Set Connectors W/,,Exclude
 1-1/4” Strut Strap,,Exclude
-1-1/4” To 1” Pvc Pipe Reducer,,Conduit
+1-1/4” To 1” Pvc Pipe Reducer,,Exclude
 1-1/4” electrical panel cover ,,Exclude
 1-1/4” emt conduit,,Conduit
 1-1/4” grounding bushing,,Exclude
@@ -13904,7 +13904,7 @@ $VS RED - SWX 123-RD,,Exclude
 "1/2"" SINGLE GANG WP BELL BOXES",,Exclude
 "1/2"" SMURF FLEX PLASTIC 2 HOL",,Conduit
 "1/2"" SMURF FLEX PLASTIC 2 HOLE",,Conduit
-"1/2"" SMURF TUBE",,Exclude
+"1/2"" SMURF TUBE",,Conduit
 "1/2"" SMURF TUBE CONNECTOR THRE",,Exclude
 "1/2"" SNAP IN PLASTIC BUSH",,Exclude
 "1/2"" SQUEEZE CONNECTOR",,Exclude
@@ -14244,7 +14244,7 @@ $VS RED - SWX 123-RD,,Exclude
 "1/2"" set screw connectors",,Exclude
 "1/2"" short chase nipple",,Exclude
 "1/2"" smurf connector",,Exclude
-"1/2"" smurf tube",,Exclude
+"1/2"" smurf tube",,Conduit
 "1/2"" snap in plastic romex con",,Wire
 "1/2"" snap in romex connector",,Exclude
 "1/2"" snap in romex connectors",,Exclude
@@ -14662,7 +14662,7 @@ $VS RED - SWX 123-RD,,Exclude
 1/2” Sealtite,,Exclude
 1/2” Sealtite 90’s,,Exclude
 1/2” Sealtite Straight Connec,,Exclude
-1/2” Smurf Tube,,Exclude
+1/2” Smurf Tube,,Conduit
 1/2” Snap In KO SEAL,,Exclude
 1/2” Snap In Low Volt Box Bush,,Exclude
 1/2” Snap In Romex Conn Double,,Wire
@@ -16980,7 +16980,7 @@ $VS RED - SWX 123-RD,,Exclude
 10.01  L. THOMPSON,,Exclude
 10.06  T. KELLEY,,Exclude
 10.08  L.THOMPSON,,Exclude
-10.1 OZ ALEX FLEX WHITE,,Conduit
+10.1 OZ ALEX FLEX WHITE,,Exclude
 10.1 fl. oz. Non-Sag Sealant i,,Exclude
 10.1 fl. oz. Red Fire Barrier ,,Exclude
 10.1 oz tubes hilti fire caulk,,Exclude
@@ -17644,8 +17644,8 @@ $VS RED - SWX 123-RD,,Exclude
 1000' #6 BARE CU STRANDED,,Wire
 1000' #6 ground cable green al,,Wire
 "1000' 1"" PVC",,Conduit
-"1000' 1"" smurf tube",,Exclude
-"1000' 1-1/4"" smurf tube",,Exclude
+"1000' 1"" smurf tube",,Conduit
+"1000' 1-1/4"" smurf tube",,Conduit
 1000' 1-Roll Brown Stranded TH,,Wire
 1000' 1/0 green ground wire re,,Wire
 1000' 1/0-3wire MC Cable Alumi,,Wire
@@ -18103,8 +18103,8 @@ $VS RED - SWX 123-RD,,Exclude
 11 PRO SETUP,,Exclude
 11 in. Warm and Bright White L,,Exclude
 11 inch black zip ties,,Exclude
-11 oz. FLUORESCENT Green Spray,,Conduit
-11 oz. Fluorescent GreenSpray ,,Conduit
+11 oz. FLUORESCENT Green Spray,,Exclude
+11 oz. Fluorescent GreenSpray ,,Exclude
 "11""  long ZipTies",,Exclude
 "11"" 21S Tie Wraps (Rated to Su",,Exclude
 "11"" BRICK",,Exclude
@@ -20849,7 +20849,7 @@ $VS RED - SWX 123-RD,,Exclude
 12X12X6 NEMA1 SCR CVR,,Exclude
 12X12X6 Nema 1Jbox,,Exclude
 12X12X6 PULL BOX,,Exclude
-12X12X6 PVC ENCLOSURE N3R,,Conduit
+12X12X6 PVC ENCLOSURE N3R,,Exclude
 12X12X6 PVC J-BOX,,Exclude
 12X12X6 PVC jbox with cover,,Exclude
 12X12X6 SC BOX,,Exclude
@@ -21633,8 +21633,8 @@ $VS RED - SWX 123-RD,,Exclude
 15 hole Polaris taps 600 kcmil,,Exclude
 15 in line gfci power block,,Exclude
 15 minute spring wound timer -,,Exclude
-15 oz. 2X Fluorescent Green Ma,,Conduit
-15 oz. Fluorescent Red-Orange ,,Conduit
+15 oz. 2X Fluorescent Green Ma,,Exclude
+15 oz. Fluorescent Red-Orange ,,Exclude
 15 oz. High Performance Enamel,,Exclude
 15 pack of grinder blades,,Exclude
 15 pk DAP dynaflex ultra exter,,Exclude
@@ -22287,7 +22287,7 @@ $VS RED - SWX 123-RD,,Exclude
 168AL02 A243D 1/2 ENT MALEADPT,,Exclude
 168MO01 TP7944 3/4 ALUM THPLUG,,Exclude
 169 FREIGHT SEFL PRO# 33416935,,Exclude
-169 oz. Lavender 2x Concentrat,,Conduit
+169 oz. Lavender 2x Concentrat,,Exclude
 "1691 1/2"" Knockout Plug",,Exclude
 "1693 1"" Knockout Plug",,Exclude
 "1696 2"" Knockout Plug",,Exclude
@@ -23780,7 +23780,7 @@ $VS RED - SWX 123-RD,,Exclude
 1```` Romex Staples 8/6/4,,Exclude
 1```` SEAL TITE 200 from shop,,Exclude
 1```` SEAL TITE CONNECTORS,,Exclude
-1```` SMURF TUBE,,Exclude
+1```` SMURF TUBE,,Conduit
 1```` SMURF TUBE CONNECTORS,,Exclude
 1```` UNISTRUT STRAPS,,Exclude
 1```` emt,,Conduit
@@ -24031,8 +24031,8 @@ $VS RED - SWX 123-RD,,Exclude
 1” PVC SCHED 40 90’s,,Exclude
 1” PVC SCHEDULE 40,,Conduit
 1” PVC Sched 40,,Conduit
-1” PVC Weather Head,,Conduit
-1” PVC weather head,,Conduit
+1” PVC Weather Head,,Exclude
+1” PVC weather head,,Exclude
 1” Paddel Bit,,Exclude
 1” Plastic Bushing,,Exclude
 1” Plastic Bushings,,Exclude
@@ -24088,10 +24088,10 @@ $VS RED - SWX 123-RD,,Exclude
 1” Set Screw Emt Coup,,Exclude
 1” Set Screw Stainless Steel  ,,Exclude
 1” Single Gang P-rings,,Exclude
-1” Smurf,,Exclude
+1” Smurf,,Conduit
 1” Smurf Connectors,,Exclude
 1” Smurf Couplings,,Exclude
-1” Smurf TA,,Exclude
+1” Smurf TA,,Conduit
 1” Snap In Bushing Plastic Wh,,Exclude
 1” Squeeze/Clamp-On Metal Weat,,Exclude
 1” Steel Flex Conn Insulated T,,Exclude
@@ -24191,7 +24191,7 @@ $VS RED - SWX 123-RD,,Exclude
 1” strut straps 2 piece,,Exclude
 1” threaded plastic bushing,,Exclude
 1” to 1/2” reducing washers,,Exclude
-1” to 3/4” pvc reducer,,Conduit
+1” to 3/4” pvc reducer,,Exclude
 1” to 3/4” reducing washer,,Exclude
 1” to 3/4” reducing washers,,Exclude
 1” to 3/4” threaded reducing  ,,Exclude
@@ -26034,7 +26034,7 @@ $VS RED - SWX 123-RD,,Exclude
 "2"" PVC TA",,Conduit
 "2"" PVC TAs",,Conduit
 "2"" PVC TERM. ADAPTER SCH. 40",,Exclude
-"2"" PVC Weather Head",,Conduit
+"2"" PVC Weather Head",,Exclude
 "2"" PVC X 10' Sched 40",,Conduit
 "2"" PVC bell end",,Exclude
 "2"" PVC bushings",,Exclude
@@ -26546,7 +26546,7 @@ $VS RED - SWX 123-RD,,Exclude
 "2""INS EMT COMP CONN",,Exclude
 "2""PVC 90'S",,Exclude
 "2""PVC COUPLING SCH 40",,Exclude
-"2""PVC to 1 1/2"" PVC Reducing ",,Conduit
+"2""PVC to 1 1/2"" PVC Reducing ",,Exclude
 "2""PVC, 10' Sticks",,Conduit
 "2""X 10' GRC CONDUIT",,Conduit
 "2""X12"" 2-hole Copper Ground B",,Exclude
@@ -32062,7 +32062,7 @@ $VS RED - SWX 123-RD,,Exclude
 2” PVC male adapters,,Exclude
 2” PVC male adaptors,,Exclude
 2” PVC terminal adaptors,,Exclude
-2” PVC weather head,,Conduit
+2” PVC weather head,,Exclude
 2” Plastic Bushing,,Exclude
 2” Plastic Bushings,,Exclude
 2” Plastic PVC Blushing,,Conduit
@@ -32203,7 +32203,7 @@ $VS RED - SWX 123-RD,,Exclude
 2” pvc male adaptor,,Exclude
 2” pvc male adaptors,,Exclude
 2” pvc sch 80  10’ sticks,,Conduit
-2” pvc weather head,,Conduit
+2” pvc weather head,,Exclude
 2” raintight Myers hub,,Exclude
 2” ridig conduit,,Conduit
 2” rigid couplings,,Exclude
@@ -33210,7 +33210,7 @@ $VS RED - SWX 123-RD,,Exclude
 "3"" Threaded Plastic Bushing",,Exclude
 "3"" Threadless Couplings",,Exclude
 "3"" Threadless connectors",,Exclude
-"3"" To 2"" PVC Reducer Carlon E9",,Conduit
+"3"" To 2"" PVC Reducer Carlon E9",,Exclude
 "3"" Toggle bolt",,Exclude
 "3"" Two Hole Strap",,Exclude
 "3"" UNI STRUT STRAP EMT",,Exclude
@@ -33416,7 +33416,7 @@ $VS RED - SWX 123-RD,,Exclude
 "3"" to 2 1/2"" Steel Rigid Reduc",,Exclude
 "3"" to 2 1/2"" threaded reducer ",,Exclude
 "3"" to 2"" threaded reducing bus",,Exclude
-"3"" to 2-1/2"" PVC Swedge Reduce",,Conduit
+"3"" to 2-1/2"" PVC Swedge Reduce",,Exclude
 "3"" two piece ko seal",,Exclude
 "3"" uni strut straps 2 piece",,Exclude
 "3"" uni strut straps EMT",,Exclude
@@ -34673,7 +34673,7 @@ $VS RED - SWX 123-RD,,Exclude
 3/4 PVC TYPE LB CONDUIT BODY,,Exclude
 3/4 PVC couplings,,Exclude
 3/4 PVC male adaptors,,Exclude
-3/4 PVC- Will Call Picking up ,,Conduit
+3/4 PVC- Will Call Picking up ,,Exclude
 3/4 Pcv Female Adapter,,Exclude
 3/4 Pipe Flange,,Exclude
 3/4 Plastic Bushing 150 degree,,Exclude
@@ -35768,7 +35768,7 @@ $VS RED - SWX 123-RD,,Exclude
 "3/4"" PVC sch. 40",,Conduit
 "3/4"" PVC sch.40",,Conduit
 "3/4"" PVC sched 40",,Conduit
-"3/4"" PVC slip ball valve (plum",,Conduit
+"3/4"" PVC slip ball valve (plum",,Exclude
 "3/4"" PVC terminal adapter",,Exclude
 "3/4"" PVC( 120- 10 ft sticks) *",,Conduit
 "3/4"" Piece Maker Knock-Out Pun",,Exclude
@@ -35897,7 +35897,7 @@ $VS RED - SWX 123-RD,,Exclude
 "3/4"" Set-Screw Flex Connector",,Exclude
 "3/4"" Singlgl Gang Plaster ring",,Exclude
 "3/4"" Site Lighting",,Exclude
-"3/4"" Smurf",,Exclude
+"3/4"" Smurf",,Conduit
 "3/4"" Smurf Conduit",,Conduit
 "3/4"" Smurf Conduit Connectors",,Exclude
 "3/4"" Snap Close Clamp - Caddy ",,Exclude
@@ -36267,12 +36267,12 @@ $VS RED - SWX 123-RD,,Exclude
 "3/4"" set screw steel couplings",,Exclude
 "3/4"" sheets plywood smooth one",,Exclude
 "3/4"" single Gang Mud Rings for",,Exclude
-"3/4"" smurf",,Exclude
+"3/4"" smurf",,Conduit
 "3/4"" smurf conn",,Exclude
 "3/4"" smurf coup",,Exclude
-"3/4"" smurf gray",,Exclude
-"3/4"" smurf gray 1000' reels",,Exclude
-"3/4"" smurf tube",,Exclude
+"3/4"" smurf gray",,Conduit
+"3/4"" smurf gray 1000' reels",,Conduit
+"3/4"" smurf tube",,Conduit
 "3/4"" snap in ENT connectors",,Exclude
 "3/4"" ss connector",,Exclude
 "3/4"" ss connector EMT",,Exclude
@@ -36885,7 +36885,7 @@ $VS RED - SWX 123-RD,,Exclude
 3/4” seal tight connectors 90s,,Exclude
 3/4” seal tight connectors str,,Exclude
 3/4” seal tight straight conne,,Exclude
-3/4” smurf tubing,,Exclude
+3/4” smurf tubing,,Conduit
 3/4” snap in k.o seal,,Exclude
 3/4” steel flex,,Conduit
 3/4” steel flex connectors,,Exclude
@@ -36917,12 +36917,12 @@ $VS RED - SWX 123-RD,,Exclude
 3/4”N/M Romex Connector,,Exclude
 3/4”Pvc Cape,,Exclude
 3/4”Pvc Fa,,Conduit
-3/4”Smurf,,Exclude
+3/4”Smurf,,Conduit
 3/4”Smurf Couplings,,Exclude
 3/4”emt,,Conduit
 3/4”lock Ring  Steel,,Exclude
 3/4”to 1/2 reduceing washers,,Exclude
-3/4”to 1/2” Pvc pipe Reducer ,,Conduit
+3/4”to 1/2” Pvc pipe Reducer ,,Exclude
 3/4”to 1/2” reducing washers,,Exclude
 3/4”x 10’ ground rod,,Exclude
 3/4”x 3” Rigid Nipple,,Exclude
@@ -38773,7 +38773,7 @@ $VS RED - SWX 123-RD,,Exclude
 32 oz. All-Purpose Cleaner - T,,Exclude
 32 oz. Lemon Breeze All-Purpos,,Exclude
 32 oz. Original Multi-Surface ,,Exclude
-32 oz. Regular Clear PVC Cemen,,Conduit
+32 oz. Regular Clear PVC Cemen,,Exclude
 32 oz. Rust Dissolver Spray Ge,,Exclude
 "32"" X32 X 18"" NEMA 1 junction ",,Exclude
 "32"" x 32"" x 6"" Nema 1 J-Box wi",,Exclude
@@ -38958,7 +38958,7 @@ $VS RED - SWX 123-RD,,Exclude
 3423,,Exclude
 3424,,Exclude
 3424-287,,Exclude
-342417 11 oz. Fluorescent Gree,,Conduit
+342417 11 oz. Fluorescent Gree,,Exclude
 3425,,Exclude
 3427,,Exclude
 3428,,Exclude
@@ -40172,7 +40172,7 @@ $VS RED - SWX 123-RD,,Exclude
 3” PVC SCHED 40 FA,,Conduit
 3” PVC SLIP COUPLINGS,,Exclude
 3” PVC Schedule 40 Male Adapte,,Exclude
-3” PVC weather head,,Conduit
+3” PVC weather head,,Exclude
 3” Plastic BUSHINGS,,Exclude
 3” Plastic Bushing,,Exclude
 3” Plastic Bushings,,Exclude
@@ -40243,7 +40243,7 @@ $VS RED - SWX 123-RD,,Exclude
 3” Standoff Straps,,Exclude
 3” Strut Straps,,Exclude
 3” Strut Straps EMT,,Exclude
-3” TO 2” PVC REDUCER,,Conduit
+3” TO 2” PVC REDUCER,,Exclude
 3” Threaded Plastic Bushings,,Exclude
 3” To 2” Reducing Washers,,Exclude
 3” Trash pump,,Exclude
@@ -40606,7 +40606,7 @@ $VS RED - SWX 123-RD,,Exclude
 4 IN SQ COVER FLAT,,Exclude
 4 IN SQUEEZE CONN,,Exclude
 4 IN TO 3 1/2 IN RE,,Exclude
-4 IN TO 3 IN PVC SLIP REDUCERS,,Conduit
+4 IN TO 3 IN PVC SLIP REDUCERS,,Exclude
 4 IN UL CONDUIT LOCKNUT,,Exclude
 4 IN metallic square box Indus,,Exclude
 4 IN. LOCK RINGS,,Exclude
@@ -42284,7 +42284,7 @@ $VS RED - SWX 123-RD,,Exclude
 "4"" to 2"" Reducing Bushings",,Exclude
 "4"" to 2"" Reducing bushing",,Exclude
 "4"" to 2-1/2"" Reducing Washers ",,Exclude
-"4"" to 3"" PVC Swedge Reducer",,Conduit
+"4"" to 3"" PVC Swedge Reducer",,Exclude
 "4"" to 3"" reducing washers",,Exclude
 "4"" two piece ko seal",,Exclude
 "4"" unistrut staps rigid",,Exclude
@@ -42505,7 +42505,7 @@ $VS RED - SWX 123-RD,,Exclude
 4'' PVC Conduits 10FT STICK,,Conduit
 4'' PVC Couplings,,Exclude
 4'' PVC END CAP,,Exclude
-4'' PVC HEATER,,Conduit
+4'' PVC HEATER,,Exclude
 4'' PVC Male Connectors,,Exclude
 4'' PVC PIPE TRANSFER FROM ACE,,Conduit
 4'' PVC couplings,,Exclude
@@ -45715,7 +45715,7 @@ $VS RED - SWX 123-RD,,Exclude
 4” PVC Sch40 Conduit,,Conduit
 4” PVC Schedule 40 Male Adapte,,Exclude
 4” PVC bell ends,,Exclude
-4” PVC weather head,,Conduit
+4” PVC weather head,,Exclude
 4” PVC x 10’  pipe,,Conduit
 4” PVCFemale Adapter,,Exclude
 4” Plastic Bushings,,Exclude
@@ -45987,7 +45987,7 @@ $VS RED - SWX 123-RD,,Exclude
 5 Gang nail on Boxes Plastic,,Exclude
 5 Gang white decora plate,,Exclude
 5 HOLE STEP BIT -310ETHD,,Exclude
-5 In. To 4 In. Pvc Slip Reduc,,Conduit
+5 In. To 4 In. Pvc Slip Reduc,,Exclude
 5 Inch foam carrier,,Exclude
 5 LB BOX OF RAGS NEW WHITE KNI,,Exclude
 "5 LBS - #10 x 2"" deck screws",,Exclude
@@ -48783,7 +48783,7 @@ $VS RED - SWX 123-RD,,Exclude
 7.25 IN 4 HOLE FLAT PLATE FITT,,Exclude
 "7.25"" circular saw blade",,Exclude
 7.5 TY RAPS,,Exclude
-7.5 oz. Fresh Breeze Scented P,,Conduit
+7.5 oz. Fresh Breeze Scented P,,Exclude
 "7.5"" ARM",,Exclude
 7.5'' ARM,,Exclude
 7.5K MINI EX,,Exclude
@@ -52890,7 +52890,7 @@ Antioxidant Compounds for Cond,,Exclude
 Antishorts 5/16”,,Exclude
 Anvil 44 in. Wood Handle Trans,,Exclude
 Anvil 500 ft fluorescent yello,,Conduit
-Anvil 500 ft. Florescent Pink ,,Conduit
+Anvil 500 ft. Florescent Pink ,,Exclude
 Anvil 500 ft. Fluorescent Yell,,Conduit
 "Anvil Assembly, Quick Connect ",,Exclude
 Anvil10 oz. Drip Free Smooth R,,Exclude
@@ -55865,7 +55865,7 @@ Butt Splice For 18 Awg Insulat,,Wire
 "Butt Splice, Non-Insulated, 4 ",,Exclude
 "Butt splice, 1/0 AWG, Tin-Plat",,Wire
 Butterfly Intercom System,,Exclude
-Butyl-Flex 10.1 oz. Aluminum G,,Conduit
+Butyl-Flex 10.1 oz. Aluminum G,,Exclude
 C,,Exclude
 C BST BOL-R-3L-LKFS,,Exclude
 C Bracket 12,,Exclude
@@ -57441,17 +57441,17 @@ CONDUIT 1-1/2-45D-EM,,Exclude
 CONDUIT 1-1/2-90D-EM,,Exclude
 CONDUIT 1-1/2-EMT,,Conduit
 CONDUIT 1-GALV-COUP,,Exclude
-CONDUIT 1/2 FLEX STEEL REDUCED,,Conduit
+CONDUIT 1/2 FLEX STEEL REDUCED,,Exclude
 CONDUIT 1/2 GALV CPLG,,Exclude
 CONDUIT 1/2'',,Conduit
 CONDUIT 1/2IN EF/LT LIQ TITE G,,Conduit
-CONDUIT 2-1/2 FLEX STEEL REDUC,,Conduit
+CONDUIT 2-1/2 FLEX STEEL REDUC,,Exclude
 CONDUIT 2-1/2 GALV CPLG,,Exclude
 CONDUIT 2-1/2-90DEG-EMT ELBOW,,Exclude
 CONDUIT 2-90D-EMT-EL,,Exclude
 CONDUIT 2-IN GALV CPLG,,Exclude
 CONDUIT 3-30D-EMT-EL,,Conduit
-CONDUIT 3-IN FLEX STEEL REDUCE,,Conduit
+CONDUIT 3-IN FLEX STEEL REDUCE,,Exclude
 CONDUIT 3-IN GALV CPLG,,Exclude
 CONDUIT 3/4 GALV CPLG,,Exclude
 CONDUIT 3/4-EMT,,Conduit
@@ -58266,7 +58266,7 @@ CUL 58565J,,Exclude
 CULLY 37590,,Exclude
 CULLY ANCHOR KIT,,Exclude
 CUP-OFF WHLS,,Exclude
-"CUPL AC/MC SNAP-IN TO 1/2"" EMT",,Conduit
+"CUPL AC/MC SNAP-IN TO 1/2"" EMT",,Exclude
 CUR CHG,,Exclude
 CURB DLVRY,,Exclude
 CURB ROLLER,,Exclude
@@ -59893,7 +59893,7 @@ DANNY HERRON,,Exclude
 DANNY KAGAY,,Exclude
 DAP 11.2oz latex caulk,,Exclude
 DAP 5.5 oz clear sealant,,Exclude
-DAP DYNAFLEX ULTRA 10.1 OZ CLE,,Conduit
+DAP DYNAFLEX ULTRA 10.1 OZ CLE,,Exclude
 DAREN MCDERMOTT,,Exclude
 DARREN MORAN,,Exclude
 DAS Survey,,Exclude
@@ -61891,7 +61891,7 @@ Dw 100  Watt Stopper Vacancy ,,Exclude
 Dw 100  Watt Stopper Vacancy S,,Exclude
 Dykem High Temp Paint Markers,,Exclude
 Dymo 30101PP Fine Point Perman,,Exclude
-Dynaflex Ultra 10.1 oz. Brown ,,Conduit
+Dynaflex Ultra 10.1 oz. Brown ,,Exclude
 Dyson Airblade V Hand Dryer HU,,Exclude
 Décor Cover Single Gang White,,Exclude
 E,,Exclude
@@ -62126,24 +62126,24 @@ EGS 1902 NEER 3/4 1H STEEL EMT,,Exclude
 EGS 1903 NEER 1-IN 1H STEEL EM,,Exclude
 EGS 4050S  1/2IN EMT SET SCREW,,Exclude
 EGS 4050S *1/2IN EMT SET SCREW,,Exclude
-EGS 4050ST  1/2IN EMT SET SCRE,,Conduit
+EGS 4050ST  1/2IN EMT SET SCRE,,Exclude
 EGS 4075S  3/4IN EMT SET SCREW,,Exclude
 EGS 4075S *3/4IN EMT SET SCREW,,Exclude
 EGS 4100S  1IN EMT SET SCREW C,,Exclude
-EGS 4125S  1-1/4IN EMT SET SCR,,Conduit
+EGS 4125S  1-1/4IN EMT SET SCR,,Exclude
 EGS 4200S  2IN EMT SET SCREW C,,Exclude
-EGS 4250S  2-1/2IN EMT SET SCR,,Conduit
+EGS 4250S  2-1/2IN EMT SET SCR,,Exclude
 EGS 4300ST  3IN EMT SET SCREW ,,Exclude
 EGS 4QS-125 1-1/4 STEEL LT CON,,Exclude
 EGS 4SES  4IN SQ COMBO EXTENSI,,Exclude
 EGS 5050S 1/2IN EMT SET SCREW ,,Exclude
 EGS 5075S  3/4IN EMT SET SCREW,,Exclude
 EGS 5100S  1IN EMT SET SCREW C,,Exclude
-EGS 5125S  1-1/4IN EMT SET SCR,,Conduit
+EGS 5125S  1-1/4IN EMT SET SCR,,Exclude
 EGS 5200S TW SET SCREW COUPLIN,,Exclude
-EGS 5250S  2-1/2IN EMT SET SCR,,Conduit
-EGS 5350S  3-1/2IN EMT SET SC,,Conduit
-EGS 5350S  3-1/2IN EMT SET SCR,,Conduit
+EGS 5250S  2-1/2IN EMT SET SCR,,Exclude
+EGS 5350S  3-1/2IN EMT SET SC,,Exclude
+EGS 5350S  3-1/2IN EMT SET SCR,,Exclude
 EGS 5400S  4IN EMT SET SCREW C,,Exclude
 EGS 6050S *1/2IN GLAND COMPRES,,Exclude
 EGS 6100S  1IN GLAND COMPRESSI,,Exclude
@@ -63221,7 +63221,7 @@ ERICO PROD 613400 GR RODPTDCU-,,Exclude
 ERICO PROD 615800 GRRODPTDCU-,,Exclude
 ERICO PROD 635800,,Exclude
 ERICO PROD CD1B,,Exclude
-ERICO PROD GR1161G TYPE GRCO,,Conduit
+ERICO PROD GR1161G TYPE GRCO,,Exclude
 ERICO PROD GTC162L,,Exclude
 ERICO PROD GTC182L MOLDCABLE ,,Wire
 ERICO PROD L160,,Exclude
@@ -67350,7 +67350,7 @@ Gallons Diesel Fuel for 2.5MW,,Exclude
 Gallons Of PVC Glue,,Exclude
 Gallons PVC Glue,,Exclude
 Gallons PVC glue,,Exclude
-Gallons XL8-1 Black Liquid PVC,,Conduit
+Gallons XL8-1 Black Liquid PVC,,Exclude
 Gallons of PVC Glue,,Exclude
 Gallons of PVC Glue with Dobbe,,Exclude
 Gallons of PVC glue with rolle,,Exclude
@@ -68132,7 +68132,7 @@ HDX 8 ft. 16/3 Light Duty Indo,,Exclude
 HDX 9-VOLT ALKALINE BATTERY (1,,Exclude
 HDX 9-VOLT ALKALINE BATTERY 12,,Exclude
 HDX FlexPro 13 Gal. Fresh Scen,,Conduit
-HDX HDX 13 GallonFLEXWhite Dra,,Conduit
+HDX HDX 13 GallonFLEXWhite Dra,,Exclude
 HDX NON-VALVE DISPOSABLE REPIR,,Exclude
 HDX Pop-N-Go Disposable Nitril,,Exclude
 "HDX Premium Adjust-A-Size, Whi",,Exclude
@@ -69052,7 +69052,7 @@ Hex head self tapping screw # ,,Exclude
 Hex head self tapping screws #,,Exclude
 Hex pin Arbor,,Exclude
 Hi Vis Collapsible Hard Hat Sh,,Exclude
-"Hi-Flex Glow Rod Set, 18'",,Conduit
+"Hi-Flex Glow Rod Set, 18'",,Exclude
 High Cube Container 6 month re,,Exclude
 High Cube Container 7044,,Exclude
 High Performance V2100 System ,,Exclude
@@ -74095,7 +74095,7 @@ Littelfuse LRU-2621 Class R Fu,,Exclude
 Little Fuse FLSR045,,Exclude
 Littlefuse 01500520H 600VAC fu,,Exclude
 "Lkg Rcpt, 30A 250v, L6-30R BK,",,Exclude
-"Lo-Flex Fish Rod Set, 12-Foot",,Conduit
+"Lo-Flex Fish Rod Set, 12-Foot",,Exclude
 Load Bank test per specs,,Exclude
 Load Center Screws THDWRKIT,,Exclude
 Load Center Unit Type A,,Exclude
@@ -76606,7 +76606,7 @@ Micro 19' Scissor Lift,,Exclude
 Micro Narrow Scissor Lift 19',,Exclude
 Micro scissor Lift 19 FT,,Exclude
 Microwave,,Exclude
-"Mid Flex Glow Rod Set, 15 Ft.",,Conduit
+"Mid Flex Glow Rod Set, 15 Ft.",,Exclude
 Midwest 714,,Exclude
 Midwest 744DC,,Exclude
 "Midwest BR54U 50A, 3P, 120/240",,Exclude
@@ -76901,14 +76901,14 @@ Morris 97058 3/0-2 Black Insul,,Exclude
 Morris Products 22348 Bushing,,Exclude
 "Morris Products 22348 Bushing,",,Exclude
 Morris Products 91716 Ground ,,Exclude
-Morris Products G1224 PVC Cem,,Conduit
-Morris Products G1224 PVC Ceme,,Conduit
+Morris Products G1224 PVC Cem,,Exclude
+Morris Products G1224 PVC Ceme,,Exclude
 Morris Products G2624 Morris ,,Exclude
 Morris Products G2624 Morris P,,Exclude
 Morris Products G2636S All Wea,,Exclude
 Morris Products G31312 Morris ,,Exclude
-Morris Products G40424 PVC Ce,,Conduit
-Morris Products G40424 PVC Cem,,Conduit
+Morris Products G40424 PVC Ce,,Exclude
+Morris Products G40424 PVC Cem,,Exclude
 Morris-97113-2-2-Blk-Insul-Con,,Exclude
 "Morse 3/8"" Hex Pin Drive Arbor",,Exclude
 Morse Holesaw Kit,,Exclude
@@ -78021,7 +78021,7 @@ OA - VISIONARE APX 1 T2 64L C,,Exclude
 OATEY 16 OZ. HEAVY DUTY FAST S,,Exclude
 OATEY 32 OZ CLEAR PVC CEMENT,,Exclude
 OATEY3/4 in. x 100 ft. 28-Gaug,,Exclude
-OATEY8 oz. Purple CPVC and PVC,,Conduit
+OATEY8 oz. Purple CPVC and PVC,,Exclude
 OB - TRELLIS DOWNLIGHT,,Exclude
 OBTAIN NC & SC ELECTRIC LICENS,,Exclude
 OC,,Exclude
@@ -80460,7 +80460,7 @@ PICK UP FEE,,Exclude
 PICK UP MATERIAL,,Exclude
 PICK UP PIPE AND FITTINGS AT J,,Exclude
 "PICK UP PIPE, SPLICE BOXES AND",,Exclude
-PICK UP PVC PIPE AND MISC. MAT,,Conduit
+PICK UP PVC PIPE AND MISC. MAT,,Exclude
 PICKUP,,Exclude
 PICKUP  042,,Exclude
 PICKUP  064,,Exclude
@@ -81490,7 +81490,7 @@ PVC 90d 2-1/2,,Exclude
 "PVC 90° Sweep Elbow, 4"", 36"" R",,Exclude
 "PVC 90° Sweep Elbow, 4"", 48"" ",,Exclude
 "PVC 90° Sweep Elbow, 4"", 48"" R",,Exclude
-PVC BALL VLV,,Conduit
+PVC BALL VLV,,Exclude
 PVC BELL END 1,,Exclude
 PVC BELL END 1-1/2,,Exclude
 PVC BELL END 1-1/4,,Exclude
@@ -81665,10 +81665,10 @@ PVC Glue Quarts,,Exclude
 PVC Glue dobbers,,Exclude
 PVC Glue in 1 quart cans With ,,Exclude
 PVC HEAT BLANKET,,Conduit
-PVC HEATER,,Conduit
-PVC HEATER - HERS - ENVIR,,Conduit
-PVC HEATER 1/2 - 4,,Conduit
-PVC HEATER-ENVIR 2WK2DY,,Conduit
+PVC HEATER,,Exclude
+PVC HEATER - HERS - ENVIR,,Exclude
+PVC HEATER 1/2 - 4,,Exclude
+PVC HEATER-ENVIR 2WK2DY,,Exclude
 PVC In Deck Carlon Nail Down B,,Conduit
 PVC JACKET MC CABLE,,Wire
 PVC JBX12126 12X12X6 JCT BOX,,Exclude
@@ -81699,10 +81699,10 @@ PVC RND FLR BOX 5,,Exclude
 "PVC Repair Coupling, 2"", Sched",,Exclude
 "PVC Repair Coupling, 3/4"", Sch",,Exclude
 PVC SCH40 CAP 4,,Exclude
-PVC SCHED  1-1/4X1 REDUCING BU,,Conduit
-PVC SCHED 2X1-1/4 REDUCING BUS,,Conduit
-PVC SCHED 40     4X3 REDUCING ,,Conduit
-PVC SCHED 40    3X2 REDUCING B,,Conduit
+PVC SCHED  1-1/4X1 REDUCING BU,,Exclude
+PVC SCHED 2X1-1/4 REDUCING BUS,,Exclude
+PVC SCHED 40     4X3 REDUCING ,,Exclude
+PVC SCHED 40    3X2 REDUCING B,,Exclude
 "PVC Schedule 40 1""",,Conduit
 "PVC Schedule 40 2 1/2"" 45D Elb",,Exclude
 "PVC Slip Coupling, 4""",,Exclude
@@ -82490,9 +82490,9 @@ Pvc Glue A Gallons,,Exclude
 Pvc Glue Despensing Can,,Exclude
 Pvc Glue Quarts,,Exclude
 Pvc Glue galion,,Exclude
-Pvc Pipe Reducer 1 -1/4”To3/4”,,Conduit
-Pvc Pipe Reducer 1” To3/4”,,Conduit
-Pvc Pipe Reducer 2”to 1 1/2”,,Conduit
+Pvc Pipe Reducer 1 -1/4”To3/4”,,Exclude
+Pvc Pipe Reducer 1” To3/4”,,Exclude
+Pvc Pipe Reducer 2”to 1 1/2”,,Exclude
 Pvc glue,,Exclude
 Pvc glue gallon,,Exclude
 Pvc threaded 1/2 coupler,,Exclude
@@ -88116,7 +88116,7 @@ SNAP IN CONN,,Exclude
 SNAP IN CONNECTOR,,Exclude
 SNAP IN DATA JACK,,Exclude
 SNAP IN DUP,,Exclude
-SNAP IN FLEX 3/8,,Conduit
+SNAP IN FLEX 3/8,,Exclude
 SNAP IN KO 1/2,,Exclude
 SNAP IN KO 3/4,,Exclude
 SNAP IN KO BLANK 3/4,,Exclude
@@ -101496,7 +101496,7 @@ floor box covers,,Exclude
 "floor box round , FLBC4500  Ar",,Exclude
 floor box round FLBC4560DMB  A,,Exclude
 floor box sleeves see image at,,Exclude
-flourescent ballast  for 2 F96,,Conduit
+flourescent ballast  for 2 F96,,Exclude
 fluke JR-LEV-2 punchdown tool,,Exclude
 foam,,Exclude
 folding tables,,Exclude
@@ -102864,7 +102864,7 @@ pvc ma 2 1/2,,Conduit
 "pvc males adaptors  3/4""",,Exclude
 pvc nail on 1 gang box,,Exclude
 pvc universal snap in bushing,,Exclude
-pvc weather head,,Conduit
+pvc weather head,,Exclude
 qob120,,Exclude
 qt pulling lube ideal 31 358,,Exclude
 qt pvc glue,,Exclude
