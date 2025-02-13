@@ -163,3 +163,4 @@ bert_trainer.ipynb
 *.ipynb
 bert_conduit_model/checkpoint-290/training_args.bin
 assembly_ml_step1.py
+bert_trainer_initial.py

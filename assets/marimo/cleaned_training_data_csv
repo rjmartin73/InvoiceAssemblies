@@ -2386,7 +2386,7 @@ electrician screw kit  (vari,,Exclude
 #500 XHHW Aluminum B/R/BLU/W,,Wire
 #500 XHHW BLACK - AL,,Wire
 #500 kcmil XHHW Aluminum,,Wire
-#500 to #4/0 Cadweld mold,,Exclude
+#500 to #4/0 Cadweld mold,,Wire
 #6,,Exclude
 #6 - 3” Drywall Screws Part Nu,,Exclude
 #6 - 550',,Exclude
@@ -3186,12 +3186,12 @@ $VS RED - SWX 123-RD,,Exclude
 "(Sawzall Blade) 12"", Bi-Metal.",,Exclude
 (Strut) 12 Gauge 1 5/8” Elonga,,Exclude
 (Strut) 12 Gauge 7/8” Elongate,,Exclude
-(TYPE FB-1) - WIREMOLD FPBTCA,,Exclude
-(TYPE FB-1) - WIREMOLD RFB6 - ,,Exclude
-(TYPE FB-2) - WIREMOLD FPBTCA,,Exclude
-(TYPE FB-2) - WIREMOLD RFB2 - ,,Exclude
-(TYPE FB-3) - WIREMOLD FPFFTC,,Exclude
-(TYPE FB-3) - WIREMOLD RFB2 F,,Exclude
+(TYPE FB-1) - WIREMOLD FPBTCA,,Wire
+(TYPE FB-1) - WIREMOLD RFB6 - ,,Wire
+(TYPE FB-2) - WIREMOLD FPBTCA,,Wire
+(TYPE FB-2) - WIREMOLD RFB2 - ,,Wire
+(TYPE FB-3) - WIREMOLD FPFFTC,,Wire
+(TYPE FB-3) - WIREMOLD RFB2 F,,Wire
 (TYPE FB-3) - WIREMOLD RFBKIT,,Exclude
 (big blue) wire nuts,,Exclude
 ) markers each of 1 through 48,,Exclude
@@ -9485,7 +9485,7 @@ $VS RED - SWX 123-RD,,Exclude
 1 EMT CMP CONN INSULATED,,Exclude
 1 EMT COMP COUP,,Exclude
 1 EMT COUPLING COMP ,,Exclude
-1 EMT HNGR W/BOLT,,Exclude
+1 EMT HNGR W/BOLT,,Conduit
 1 EMT SS CONN,,Exclude
 1 EMT-FLEX COUP,,Exclude
 1 END CAP,,Exclude
@@ -9551,7 +9551,7 @@ $VS RED - SWX 123-RD,,Exclude
 1 Gallon Bottles of Clear Glid,,Exclude
 1 Gallon Cans of PVC Glue,,Exclude
 1 Gallon Cans of PVC Glue (Big,,Exclude
-1 Gallon Clear Wire Lube,,Exclude
+1 Gallon Clear Wire Lube,,Wire
 1 Gallon Clear Wire Pulling L,,Exclude
 1 Gallon PVC Glue,,Exclude
 1 Gallon bucket of wire pullin,,Exclude
@@ -9792,14 +9792,14 @@ $VS RED - SWX 123-RD,,Exclude
 1 day rental of small mini exc,,Exclude
 "1 end cap, 10 H x 10 in. D, AN",,Exclude
 1 gal pvc glue,,Exclude
-1 gal wire lube,,Exclude
+1 gal wire lube,,Wire
 1 gal wire pulling lubricant,,Exclude
 1 gal. Flat White Exterior Tra,,Exclude
 1 gal. Medium Base Semi-Gloss ,,Exclude
 1 gallon Bucket of wire pulli,,Exclude
 1 gallon Bucket of wire pullin,,Exclude
 1 gallon PVC GLUE,,Exclude
-1 gallon bucket wire lube clea,,Exclude
+1 gallon bucket wire lube clea,,Wire
 1 gallon buckets pulling lube,,Exclude
 1 gallon pulling lube,,Exclude
 1 gallon pvc glue,,Exclude
@@ -11311,7 +11311,7 @@ $VS RED - SWX 123-RD,,Exclude
 1-1/2 EMT COUNDUITS,,Conduit
 1-1/2 EMT COUPLINGS,,Exclude
 1-1/2 EMT Compression Coupling,,Exclude
-1-1/2 EMT HNGR W/BOLT,,Exclude
+1-1/2 EMT HNGR W/BOLT,,Conduit
 1-1/2 EMT QT 1-1/4,,Conduit
 1-1/2 EMT SS COUP,,Exclude
 1-1/2 ENT,,Conduit
@@ -11870,7 +11870,7 @@ $VS RED - SWX 123-RD,,Exclude
 1-1/4 EMT CMP CONN,,Exclude
 1-1/4 EMT CONDUIT,,Conduit
 1-1/4 EMT CONN,,Exclude
-1-1/4 EMT HNGR W/BOLT,,Exclude
+1-1/4 EMT HNGR W/BOLT,,Conduit
 1-1/4 EMT SS CON S/B CPL,,Conduit
 1-1/4 EMT STRAP,,Exclude
 1-1/4 EMT-FLEX,,Conduit
@@ -13989,7 +13989,7 @@ $VS RED - SWX 123-RD,,Exclude
 "1/2"" bang on plastic bushing",,Exclude
 "1/2"" bat-wings",,Exclude
 "1/2"" beam clamps",,Exclude
-"1/2"" black bushing romex conne",,Exclude
+"1/2"" black bushing romex conne",,Wire
 "1/2"" black button grommet",,Exclude
 "1/2"" blue ENT",,Conduit
 "1/2"" car flex",,Conduit
@@ -14691,7 +14691,7 @@ $VS RED - SWX 123-RD,,Exclude
 1/2” bang on plastic bushing,,Exclude
 1/2” black plastic  romex cone,,Wire
 1/2” black plastic gromets - N,,Exclude
-1/2” black romex bushing / gro,,Exclude
+1/2” black romex bushing / gro,,Wire
 1/2” by 18” SDS plus drill bit,,Exclude
 1/2” cable Connectors,,Exclude
 1/2” car flex,,Conduit
@@ -20085,7 +20085,7 @@ $VS RED - SWX 123-RD,,Exclude
 12/2 mc 1000' ROLLS,,Wire
 12/2 mc 1000' reels,,Wire
 12/2 mc 1000' spools,,Wire
-12/2 mc anti short bushing (re,,Exclude
+12/2 mc anti short bushing (re,,Wire
 12/2 mc black/white/green,,Wire
 12/2 mc cable,,Wire
 "12/2 mc cable solid, AL",,Wire
@@ -20389,7 +20389,7 @@ $VS RED - SWX 123-RD,,Exclude
 12/4-(2 hots-2 tracer neutral-,,Wire
 12/4-10/2 STRAP 3/8,,Exclude
 12/4-10/2-10/3 STRAP 3/8,,Exclude
-12/4-2/1 ANTI SHORT BUSH,,Exclude
+12/4-2/1 ANTI SHORT BUSH,,Wire
 12/4C W/GROUND SOLID CABLE MC ,,Wire
 12/4MC,,Wire
 12/5 SO Cord,,Exclude
@@ -20749,7 +20749,7 @@ $VS RED - SWX 123-RD,,Exclude
 12G CEIL HNGR,,Exclude
 12G STRUT,,Exclude
 12G STRUT CHANNEL,,Exclude
-12GA HNGR WIRE,,Exclude
+12GA HNGR WIRE,,Wire
 12GA STRUT 1.625,,Exclude
 12GA UNISTRUT,,Exclude
 12H GRND BAR KIT,,Exclude
@@ -21309,8 +21309,8 @@ $VS RED - SWX 123-RD,,Exclude
 "14.6"" black tie wraps",,Exclude
 14/-12/2 AS BSHG,,Wire
 14/0 ROMEX,,Wire
-14/2 - 12/2 ANTI SHORT BUSH,,Exclude
-14/2 - 12/2 AS BUSH,,Exclude
+14/2 - 12/2 ANTI SHORT BUSH,,Wire
+14/2 - 12/2 AS BUSH,,Wire
 14/2 100FT SJTW PLAS CORD-O-LI,,Wire
 14/2 12/2 STRAP,,Exclude
 "14/2 AWG, FPLR/CL2R, Non-Plen",,Wire
@@ -21390,10 +21390,10 @@ $VS RED - SWX 123-RD,,Exclude
 "14/2 w/Ground, MC, Aluminum A",,Wire
 "14/2 w/Ground, MC, Aluminum Ar",,Wire
 14/2-12/2 ANTI SHORT BUS,,Wire
-14/2-12/2 ANTI SHORT BUSH,,Exclude
+14/2-12/2 ANTI SHORT BUSH,,Wire
 14/2-12/2 ANTI-SHORT BUS,,Wire
-14/2-12/2 ANTI-SHORT BUSH,,Exclude
-14/2-12/2 AS BUSH,,Exclude
+14/2-12/2 ANTI-SHORT BUSH,,Wire
+14/2-12/2 AS BUSH,,Wire
 14/2-12/2 METAL STAPLE,,Exclude
 14/2-12/2 STRAP,,Exclude
 14/2C LANDSCAPE LIGHTING 150V,,Exclude
@@ -24922,7 +24922,7 @@ $VS RED - SWX 123-RD,,Exclude
 2 Gang Weatherproof Bubble Cov,,Exclude
 2 Gang Weatherproof box (RACO ,,Exclude
 2 Gang White Double Decora Pla,,Exclude
-2 Gang Wiremold 2347-2 Extens,,Exclude
+2 Gang Wiremold 2347-2 Extens,,Wire
 2 Gang bell Box HUB,,Exclude
 2 Gang flat mud rings,,Exclude
 2 Gang fs 3/4 Hub  Box,,Exclude
@@ -26203,7 +26203,7 @@ $VS RED - SWX 123-RD,,Exclude
 "2"" WET CORE BIT",,Exclude
 "2"" WHITE CAP SCREWS FOR PLATE",,Exclude
 "2"" WHITE PLASTIC BUSHING",,Exclude
-"2"" WIRE BRUSH",,Exclude
+"2"" WIRE BRUSH",,Wire
 "2"" WOOD NAILS 1000 PER BOX",,Exclude
 "2"" WP Compression Connectors",,Exclude
 "2"" WP Compression Coupling",,Exclude
@@ -26986,7 +26986,7 @@ $VS RED - SWX 123-RD,,Exclude
 "2-1/2"" TWO hole bands for PVC",,Conduit
 "2-1/2"" Threaded Impact Resista",,Exclude
 "2-1/2"" UNISTRUT STRAPS",,Exclude
-"2-1/2"" WIRE BRUSH",,Exclude
+"2-1/2"" WIRE BRUSH",,Wire
 "2-1/2"" WP K.O. Seals",,Exclude
 "2-1/2"" WP Sealing K.O. Seal",,Exclude
 "2-1/2"" bolt-on ko seal",,Exclude
@@ -29376,7 +29376,7 @@ $VS RED - SWX 123-RD,,Exclude
 21006-202 COST ADJ,,Exclude
 21006-202 COST CR 000139,,Exclude
 21006377-N COMBO 120V CO/SMOK,,Exclude
-21006378 - AC/DC WIRED SMOKE ,,Exclude
+21006378 - AC/DC WIRED SMOKE ,,Wire
 21007 - S01 CO 001,,Exclude
 21007 - S01 CO 002,,Exclude
 21007 - S01 CO 003,,Exclude
@@ -32065,7 +32065,7 @@ $VS RED - SWX 123-RD,,Exclude
 2” PVC weather head,,Exclude
 2” Plastic Bushing,,Exclude
 2” Plastic Bushings,,Exclude
-2” Plastic PVC Blushing,,Exclude
+2” Plastic PVC Blushing,,Conduit
 2” Plastic Screw On Bushing,,Exclude
 2” Plastic Sleeves,,Exclude
 2” Plastic Threaded Bushing,,Exclude
@@ -33222,7 +33222,7 @@ $VS RED - SWX 123-RD,,Exclude
 "3"" Unistrut Straps",,Exclude
 "3"" Unistrut Straps thin wall",,Exclude
 "3"" Universal Unistrut Straps",,Exclude
-"3"" WIRE BRUSH",,Exclude
+"3"" WIRE BRUSH",,Wire
 "3"" WP Compression Connectors",,Exclude
 "3"" WP Compression Couplings",,Exclude
 "3"" Weather Heads Metal",,Exclude
@@ -33614,8 +33614,8 @@ $VS RED - SWX 123-RD,,Exclude
 3-1/2”       Schl 40   pvc  Fe,,Conduit
 3-1/2”  none metallic flex. - ,,Conduit
 3-1/2” By 1/4” Toggle Bolts,,Exclude
-3-1/2” Emt Plastic Push On Bu,,Exclude
-3-1/2” Emt Plastic Push On Bus,,Exclude
+3-1/2” Emt Plastic Push On Bu,,Conduit
+3-1/2” Emt Plastic Push On Bus,,Conduit
 3-1/2” Long Drywall Togle Bolt,,Exclude
 3-1/2” Pvc 90 Elbow Schl 40,,Exclude
 3-1/2” emt cnduit,,Conduit
@@ -34383,7 +34383,7 @@ $VS RED - SWX 123-RD,,Exclude
 3/4 EMT CMP CPL RAINTIGHT,,Conduit
 3/4 EMT COMPRESSION CONNECTORS,,Exclude
 3/4 EMT COMPRESSION COUPLINGS,,Exclude
-3/4 EMT COND HNGR,,Exclude
+3/4 EMT COND HNGR,,Conduit
 3/4 EMT CONDUIT,,Conduit
 3/4 EMT CONDUIT 10-FT,,Conduit
 3/4 EMT CONECTOR SELF SCREWS,,Exclude
@@ -34397,8 +34397,8 @@ $VS RED - SWX 123-RD,,Exclude
 3/4 EMT Connector Stl SS,,Exclude
 3/4 EMT Connectors,,Exclude
 3/4 EMT Coupling,,Exclude
-3/4 EMT HNGR,,Exclude
-3/4 EMT HNGR W/BOLT,,Exclude
+3/4 EMT HNGR,,Conduit
+3/4 EMT HNGR W/BOLT,,Conduit
 3/4 EMT Male Connector,,Exclude
 3/4 EMT Mini Stap,,Conduit
 3/4 EMT Mini’s,,Conduit
@@ -35985,7 +35985,7 @@ $VS RED - SWX 123-RD,,Exclude
 "3/4"" bang on bushings",,Exclude
 "3/4"" bat-wings",,Exclude
 "3/4"" bell box seals  10pk",,Exclude
-"3/4"" black bushing romex conne",,Exclude
+"3/4"" black bushing romex conne",,Wire
 "3/4"" black plastic bushings",,Exclude
 "3/4"" black plastic romex pop i",,Wire
 "3/4"" blue ENT",,Conduit
@@ -45957,7 +45957,7 @@ $VS RED - SWX 123-RD,,Exclude
 5 GAL WATER,,Exclude
 5 GAL WATER NO XCHG,,Exclude
 5 GALLON BUKETS OF FIRE CALKIN,,Exclude
-5 GALLON CLEAR WIRE LUBE,,Exclude
+5 GALLON CLEAR WIRE LUBE,,Wire
 5 GALLON ROMEX STAPLES,,Exclude
 5 GALV,,Exclude
 5 GANG STAINLESS STEEL SW COVE,,Exclude
@@ -46041,8 +46041,8 @@ $VS RED - SWX 123-RD,,Exclude
 5 gallon buckets lube,,Exclude
 5 gallon buckets of fire caulk,,Exclude
 5 gallon buckets of wire pulli,,Exclude
-5 gallon buckets wire lube,,Exclude
-5 gallon clear glide wire lube,,Exclude
+5 gallon buckets wire lube,,Wire
+5 gallon clear glide wire lube,,Wire
 5 gallon clear glide/ blue,,Exclude
 5 gallon fire caulk,,Exclude
 5 gallon home depot buckets,,Exclude
@@ -46061,7 +46061,7 @@ $VS RED - SWX 123-RD,,Exclude
 5 in. 1-Gang White Textured Ro,,Exclude
 5 in. Black Heavy Duty Gate Sl,,Exclude
 5 in. Diamond Premium Wet Core,,Exclude
-5 in. PVC flush round 6 in. de,,Exclude
+5 in. PVC flush round 6 in. de,,Conduit
 5 in. x 11-3/8 in. One Piece S,,Exclude
 5 jaw meter socket  #11ME12S00,,Exclude
 5 lb box of rags,,Exclude
@@ -47265,7 +47265,7 @@ $VS RED - SWX 123-RD,,Exclude
 "6 Bare Stranded Copper Wire, 2",,Wire
 6 CKT TERM STRIP,,Exclude
 6 COPPER SPLIT BOLT,,Exclude
-6 CTC2SB WIREMOLD POKE THROUGH,,Exclude
+6 CTC2SB WIREMOLD POKE THROUGH,,Wire
 6 DAYS INV MTH,,Exclude
 6 ELEMENT,,Exclude
 6 Ft Folding Table,,Exclude
@@ -47408,7 +47408,7 @@ $VS RED - SWX 123-RD,,Exclude
 "6"" SCHEDULE 40 PVC",,Conduit
 "6"" SCHEDULE 40 PVC COUPLINGS",,Exclude
 "6"" SCHEDULE 40 PVC FEMALE ADAP",,Exclude
-"6"" STEM ASSEMBLY PREWIRED",,Exclude
+"6"" STEM ASSEMBLY PREWIRED",,Wire
 "6"" Sawzall Blades",,Exclude
 "6"" TIE WRAPS",,Exclude
 "6"" WHITE ZIP TIES",,Exclude
@@ -48445,7 +48445,7 @@ $VS RED - SWX 123-RD,,Exclude
 6IN HDPE TO PVC TRANSITION FI,,Conduit
 6IN HDPE TO PVC TRANSITION FIT,,Exclude
 6IN LT BAFFLE 800LM 3000K/4000,,Exclude
-6IN PREWIRED SURF STYLE ASSEMB,,Exclude
+6IN PREWIRED SURF STYLE ASSEMB,,Wire
 6IN PVC FEMALE ADAPTERS,,Exclude
 6IN SQUARE FLAT COVER BLANK,,Exclude
 6J RGLS SOLCVR CT SKT,,Exclude
@@ -49003,9 +49003,9 @@ $VS RED - SWX 123-RD,,Exclude
 700 AUGUSTA RD-TYNDALL FLT,,Exclude
 700 AUGUSTA UNIT 719 (FINAL),,Exclude
 700 Slab,,Exclude
-700 Wiremold Inside 90 Ivory,,Exclude
-700 Wiremold Outside 90,,Exclude
-700 Wiremold ivory,,Exclude
+700 Wiremold Inside 90 Ivory,,Wire
+700 Wiremold Outside 90,,Wire
+700 Wiremold ivory,,Wire
 700 adapter Ring for PFB1,,Exclude
 700 lb plate tamper,,Exclude
 7000 Lumens Portable Corded LE,,Exclude
@@ -49339,7 +49339,7 @@ $VS RED - SWX 123-RD,,Exclude
 "8 AWG, Stranded, Red, THHN, 50",,Wire
 "8 Amp, 250VAC, Glass Fuses,  F",,Exclude
 "8 Bare Solid Copper Wire, 500 ",,Wire
-8 CTC2SB WIREMOLD POKE THROUGH,,Exclude
+8 CTC2SB WIREMOLD POKE THROUGH,,Wire
 8 CY RECD INV 102 - INCORRECT,,Exclude
 8 DAYS - ENVIR,,Exclude
 8 EACH CLEAR GLIDE SOAP- BOTTE,,Exclude
@@ -52124,7 +52124,7 @@ ANGLE CONN 1/2,,Exclude
 ANGLE CONN 2,,Exclude
 ANGLE CONN 3/4,,Exclude
 ANIFRZ,,Exclude
-ANIT SHORT BUSH 14/2-12/2,,Exclude
+ANIT SHORT BUSH 14/2-12/2,,Wire
 ANNETTE BELL,,Exclude
 ANNUAL,,Exclude
 ANNUAL CLOUD SERVICE,,Exclude
@@ -52323,7 +52323,7 @@ AS BSHG 5/16  006004,,Exclude
 AS BUSH,,Exclude
 AS BUSH #1,,Exclude
 AS BUSH 1/2,,Exclude
-AS BUSH 14/2-12/2,,Exclude
+AS BUSH 14/2-12/2,,Wire
 AS BUSH 3/4,,Exclude
 AS BUSH 3/8,,Exclude
 AS BUSH 5-16,,Exclude
@@ -52864,8 +52864,8 @@ Anixter Quote SE43461605,,Exclude
 Annual Report Corp,,Exclude
 Annunciator-Panel Mounted With,,Exclude
 Anti Rattle clip Caddy 781,,Exclude
-Anti Short Bushing for 12/2 a,,Exclude
-Anti Short Bushing for 12/2 an,,Exclude
+Anti Short Bushing for 12/2 a,,Wire
+Anti Short Bushing for 12/2 an,,Wire
 "Anti Short Bushing, 5/16"", No",,Exclude
 "Anti Short Bushing, 5/16"", Non",,Exclude
 Anti Short Reds For MC 12/2,,Wire
@@ -52890,7 +52890,7 @@ Antioxidant Compounds for Cond,,Exclude
 Antishorts 5/16”,,Exclude
 Anvil 44 in. Wood Handle Trans,,Exclude
 Anvil 500 ft fluorescent yello,,Conduit
-Anvil 500 ft. Florescent Pink ,,Conduit
+Anvil 500 ft. Florescent Pink ,,Exclude
 Anvil 500 ft. Fluorescent Yell,,Conduit
 "Anvil Assembly, Quick Connect ",,Exclude
 Anvil10 oz. Drip Free Smooth R,,Exclude
@@ -53421,7 +53421,7 @@ Arlington DBVR1C In use box wi,,Exclude
 Arlington DBVS1C,,Exclude
 "Arlington DLN2 3/4"" Die Cast L",,Exclude
 Arlington DVFR1W Recessed Ente,,Exclude
-"Arlington EMT100 1"" push on pl",,Exclude
+"Arlington EMT100 1"" push on pl",,Conduit
 Arlington EMT100 EMT Insulati,,Exclude
 Arlington EMT100 EMT Insulatin,,Exclude
 Arlington EMT125 1 1/4” insula,,Exclude
@@ -53571,7 +53571,7 @@ As per quote ACF 0020841704 / ,,Exclude
 As per quote Jackson Lighting ,,Exclude
 As per quote from Trimble #920,,Exclude
 "Assorted Screw Kit, # 8-32, V",,Exclude
-Assorted Wire Brush Wheels,,Exclude
+Assorted Wire Brush Wheels,,Wire
 Astec - UG Site Utility Work,,Exclude
 Astronomic Timer Control,,Exclude
 Atkore P5500T-10HG,,Exclude
@@ -55728,7 +55728,7 @@ Brown phase tape,,Exclude
 Brown tape,,Exclude
 Brown/gry 10-2 mc,,Exclude
 Brum And Dusk Pan,,Exclude
-"Brush-Wire 4"" (39282)",,Exclude
+"Brush-Wire 4"" (39282)",,Wire
 Brushed Stainless 2 gang Recpt,,Exclude
 Brushed Stainless Decora Recpt,,Exclude
 Brushed Stainless Duplex Recpt,,Exclude
@@ -55746,7 +55746,7 @@ Bucket Of Jet Line,,Exclude
 Bucket Of Jetline,,Exclude
 Bucket Of Romex (12-2) Staples,,Exclude
 Bucket Of Staples,,Exclude
-Bucket Of Wire Lube,,Exclude
+Bucket Of Wire Lube,,Wire
 Bucket Pull String,,Exclude
 Bucket if Mule Tape,,Exclude
 Bucket o string,,Exclude
@@ -55760,10 +55760,10 @@ Bucket of fire caulk,,Exclude
 Bucket of jet line,,Exclude
 Bucket of jetline,,Exclude
 Bucket of pull string ,,Exclude
-Bucket of wire lube,,Exclude
+Bucket of wire lube,,Wire
 Bucket self leveling Fire Caul,,Exclude
-Bucket wire lube 1 gal,,Exclude
-Bucket wire lube 5 gal,,Exclude
+Bucket wire lube 1 gal,,Wire
+Bucket wire lube 5 gal,,Wire
 Buckets 5 Gal.,,Exclude
 Buckets FS1 Hiti Fire Caulk,,Exclude
 Buckets HILTI CFS-S SIL SL Fir,,Exclude
@@ -55987,9 +55987,9 @@ CABINET HANDLE,,Exclude
 CABINET KEYS,,Exclude
 CABLE,,Wire
 CABLE  TIE,,Exclude
-CABLE BRUSH,,Exclude
+CABLE BRUSH,,Wire
 CABLE CLAMP 1,,Exclude
-CABLE CLEANING BRUSH,,Exclude
+CABLE CLEANING BRUSH,,Wire
 CABLE CLIP,,Exclude
 CABLE CLIP 2,,Exclude
 CABLE CLIP CJ6,,Exclude
@@ -56001,8 +56001,8 @@ CABLE CONN 2,,Wire
 CABLE CONN 3/4,,Wire
 CABLE CUTTER,,Exclude
 CABLE CUTTER KIT,,Exclude
-CABLE HNGR,,Exclude
-CABLE HNGR W/SHOT,,Exclude
+CABLE HNGR,,Wire
+CABLE HNGR W/SHOT,,Wire
 CABLE IC-CT2-59,,Wire
 CABLE LOCATOR,,Wire
 CABLE LOCKOUT,,Wire
@@ -56053,7 +56053,7 @@ CABLE TIE STD 11.81IN NAT,,Exclude
 CABLE TIES,,Exclude
 CABLE TO GRD ROD,,Wire
 CABLE TO REBAR CONN,,Wire
-CABLE TO REBAR MOLD,,Exclude
+CABLE TO REBAR MOLD,,Wire
 CABLE TRAY,,Exclude
 CABLE TRAY CUTTER,,Exclude
 CABLE TRAY GROUNDING CRIMPS VE,,Exclude
@@ -56166,7 +56166,7 @@ CADWELD HANDLE L160,,Exclude
 CADWELD IGNTR PLUS,,Exclude
 CADWELD KIT PART # T343,,Exclude
 CADWELD L160,,Exclude
-CADWELD MOLD 4/0 PASSTHRU TO ,,Exclude
+CADWELD MOLD 4/0 PASSTHRU TO ,,Wire
 CADWELD MOLD GTC162L,,Exclude
 CADWELD MOLD RTC532L,,Exclude
 CADWELD MOLD RTC542L,,Exclude
@@ -56184,7 +56184,7 @@ CADWELD WELDING MAT 45,,Exclude
 CADWELD shots 115Part #115PLU,,Exclude
 CADWELD shots 90Part #90PLUSF2,,Exclude
 CADWELL PLUS WEL METAL - 115PL,,Exclude
-CADweld mold from 4/0 to Busba,,Exclude
+CADweld mold from 4/0 to Busba,,Wire
 CADweld shots,,Exclude
 CAISSON,,Exclude
 CAL TORQUE WRENCH,,Exclude
@@ -58599,7 +58599,7 @@ Cable 8/2 With Ground ROMEX,,Wire
 Cable And Wire Pulling Lube Pa,,Exclude
 Cable Cablofil Basket Tray,,Exclude
 Cable Cablofil Basket Tray YEL,,Exclude
-Cable Cleaning Brush,,Exclude
+Cable Cleaning Brush,,Wire
 "Cable Connector, 1/2"", For NM ",,Exclude
 "Cable Connector, AC/MC, 1"", Tw",,Exclude
 "Cable Connector, AC/MC, 3/4"", ",,Exclude
@@ -58822,7 +58822,7 @@ CaddyRBS16 Rigid box support,,Exclude
 Cadweld 115 Shots,,Exclude
 Cadweld 115 Welding Material,,Exclude
 Cadweld 150 Welding Material,,Exclude
-Cadweld 4/0 Cable Mold SHOTS,,Exclude
+Cadweld 4/0 Cable Mold SHOTS,,Wire
 Cadweld 4/0 Cable To Top Of 5/,,Wire
 Cadweld 65 weld metal shots fo,,Exclude
 Cadweld Cable to Cable T's fo,,Wire
@@ -58831,7 +58831,7 @@ Cadweld Electronic Igniter,,Exclude
 Cadweld GTC162L Cable To Grou,,Wire
 Cadweld GTC182Q Cable to groun,,Wire
 Cadweld Kit,,Exclude
-"Cadweld Mold for 4/0 to 3/4"" g",,Exclude
+"Cadweld Mold for 4/0 to 3/4"" g",,Wire
 Cadweld Molding putty,,Exclude
 Cadweld One Shot,,Exclude
 "Cadweld One Shot #4/0-3/4"" Gro",,Wire
@@ -58844,7 +58844,7 @@ Cadweld mold #5 rebar to 3/0 w,,Exclude
 "Cadweld mold 3/4""ground rod to",,Exclude
 Cadweld mold cleaning brush,,Exclude
 Cadweld plus control unit (ele,,Exclude
-Cadweld t mold 4/0 through cab,,Exclude
+Cadweld t mold 4/0 through cab,,Wire
 Cady Erico 822mb18 B18-z Box C,,Exclude
 Calbrite S45810ST58 Channel - ,,Exclude
 Calbrite S45810ST78 STAINLESS ,,Exclude
@@ -59356,13 +59356,13 @@ Clear Aqua Gel 5 Gallons,,Exclude
 Clear Coat Spray Paint,,Exclude
 Clear Face shield replacements,,Exclude
 Clear Glide 1QT Bottle,,Exclude
-Clear Glide Wire Lube,,Exclude
-Clear Glide Wire Lube Gallon,,Exclude
+Clear Glide Wire Lube,,Wire
+Clear Glide Wire Lube Gallon,,Wire
 Clear Inverted Marking Spray ,,Exclude
 Clear Inverted Marking Spray P,,Exclude
 Clear Inverted Spray Paint,,Exclude
 Clear Lacquer Spray,,Exclude
-Clear Lube wire lube 5 Gallon,,Exclude
+Clear Lube wire lube 5 Gallon,,Wire
 Clear Pulling Wire Lube,,Exclude
 Clear Safety Glasses,,Exclude
 Clear Silicone,,Exclude
@@ -61946,7 +61946,7 @@ E41348-BZ,,Exclude
 E50-480400-J-KIT,,Exclude
 E6000 permanent adhesive,,Conduit
 E997n 4,,Exclude
-EA WIREMOLD 6CTCHDSS,,Exclude
+EA WIREMOLD 6CTCHDSS,,Wire
 "EACH WITH 12"" OF WIRE AND CONN",,Wire
 EALB100 taymac,,Exclude
 EAR PLUGS,,Exclude
@@ -62778,17 +62778,17 @@ EMT END CAP 4,,Exclude
 "EMT Elbow, 15°, 2""",,Exclude
 "EMT Elbow, 15°, 3""",,Exclude
 EMT FLEX COUP 3/4,,Exclude
-EMT HNGR 1,,Exclude
-EMT HNGR 1-1/4,,Exclude
-EMT HNGR 2,,Exclude
-EMT HNGR 3,,Exclude
-EMT HNGR 3/4,,Exclude
-EMT HNGR 4,,Exclude
-EMT HNGR W/BOLT 1,,Exclude
-EMT HNGR W/BOLT 2,,Exclude
-EMT HNGR W/BOLT 3,,Exclude
-EMT HNGR W/BOLT 3/4,,Exclude
-EMT HNGR/WBOLT 1-1/4,,Exclude
+EMT HNGR 1,,Conduit
+EMT HNGR 1-1/4,,Conduit
+EMT HNGR 2,,Conduit
+EMT HNGR 3,,Conduit
+EMT HNGR 3/4,,Conduit
+EMT HNGR 4,,Conduit
+EMT HNGR W/BOLT 1,,Conduit
+EMT HNGR W/BOLT 2,,Conduit
+EMT HNGR W/BOLT 3,,Conduit
+EMT HNGR W/BOLT 3/4,,Conduit
+EMT HNGR/WBOLT 1-1/4,,Conduit
 EMT INS BUSH 1,,Exclude
 EMT INS BUSH 1-1/4,,Exclude
 EMT INS BUSH 1/2,,Exclude
@@ -62944,7 +62944,7 @@ EMT-FLEX COUP 3/4,,Exclude
 EMT-FLEX COUP 3/4-1/2,,Exclude
 "EMT075 FB*** 3/4"" EMT CONDUIT",,Conduit
 EMT1 - CONDUIT - EMT 1IN,,Conduit
-EMT1 HNGR,,Exclude
+EMT1 HNGR,,Conduit
 EMT100,,Conduit
 "EMT100 EMT Insulating Bushing,",,Exclude
 EMT125,,Conduit
@@ -63223,10 +63223,10 @@ ERICO PROD 635800,,Exclude
 ERICO PROD CD1B,,Exclude
 ERICO PROD GR1161G TYPE GRCO,,Exclude
 ERICO PROD GTC162L,,Exclude
-ERICO PROD GTC182L MOLDCABLE ,,Exclude
+ERICO PROD GTC182L MOLDCABLE ,,Wire
 ERICO PROD L160,,Exclude
-ERICO PROD NCR182L MOLDCABLE ,,Exclude
-ERICO PROD VSC2L MOLDCABLE TO,,Exclude
+ERICO PROD NCR182L MOLDCABLE ,,Wire
+ERICO PROD VSC2L MOLDCABLE TO,,Wire
 ERICO T416B,,Exclude
 ERICO TAC2Q2Q,,Exclude
 ERICO VBC2Q,,Exclude
@@ -63819,7 +63819,7 @@ Edwards 6536-G5 Horn Strobe (W,,Exclude
 Edwards 7005-G5 Hotel Room Ann,,Exclude
 Edwards 868STRR-N5,,Exclude
 "Edwards 877-G1 Vibrating Horn,",,Exclude
-Edwards C212W-2L Wired Chime K,,Exclude
+Edwards C212W-2L Wired Chime K,,Wire
 Edwards Signaling 7005-G5 H/I,,Exclude
 "Electical box cover, Square 2 ",,Exclude
 Electrial Under Ground Warning,,Exclude
@@ -64861,7 +64861,7 @@ FLEX CON 1-1/4,,Conduit
 FLEX CON 3,,Conduit
 FLEX CON 3/8,,Conduit
 FLEX CON 90D 3/4,,Exclude
-FLEX COND  HNGR,,Exclude
+FLEX COND  HNGR,,Conduit
 FLEX COND 1,,Conduit
 FLEX COND 1-1/2,,Conduit
 FLEX COND 1/2,,Conduit
@@ -64894,7 +64894,7 @@ FLEX DUP CONN 3/8,,Exclude
 FLEX ENT COND 3/4,,Conduit
 FLEX GUARD COVER,,Exclude
 FLEX HNGE,,Conduit
-FLEX HNGR,,Exclude
+FLEX HNGR,,Conduit
 FLEX LIQ TIGHT CONDUIT,,Conduit
 FLEX OIL RES,,Exclude
 FLEX OIL RES 1-1/2,,Exclude
@@ -65870,7 +65870,7 @@ Firestopping rated assemblies,,Exclude
 Firestopping-S,,Exclude
 First Alert smoke detector M#,,Exclude
 First Floor,,Exclude
-First alert hard wired W/ batt,,Exclude
+First alert hard wired W/ batt,,Wire
 Fish Tape,,Exclude
 "Fish Tape, Length 200 ft, Tape",,Exclude
 Fitness 600 Downlight,,Exclude
@@ -66157,7 +66157,7 @@ GALLON OF BURSHABLE BLACK MAS,,Exclude
 GALLON OF PVC GLUE,,Exclude
 GALLON PVC CEMENT,,Exclude
 GALLON PVC GLUE,,Exclude
-GALLON WIRE LUBE,,Exclude
+GALLON WIRE LUBE,,Wire
 GALLON of BLACK MASTIC,,Exclude
 GALLONS OF DIESEL FUEL DELIVER,,Exclude
 GALLONS OF PVC GLUE,,Exclude
@@ -68345,7 +68345,7 @@ HNGR 1/4-20,,Exclude
 HNGR 3 W/BOLT,,Exclude
 HNGR 3/4,,Exclude
 HNGR 3/8,,Exclude
-HNGR 3/8 - 1/2 RGD 1/2 EMT,,Exclude
+HNGR 3/8 - 1/2 RGD 1/2 EMT,,Conduit
 HNGR BAR,,Exclude
 HNGR BAR 24,,Exclude
 HNGR BAR 24-8,,Exclude
@@ -70255,8 +70255,8 @@ Ideal 46-35-GRN Vinyl Coding T,,Exclude
 Ideal 46-90 wire marker book,,Exclude
 Ideal 73 B Wire Connector Oran,,Exclude
 Ideal 74-027 EMT Conduit Bende,,Conduit
-Ideal 77 Wire Lube 5 Gallon B,,Exclude
-Ideal 77 Wire Lube 5 Gallon Bu,,Exclude
+Ideal 77 Wire Lube 5 Gallon B,,Wire
+Ideal 77 Wire Lube 5 Gallon Bu,,Wire
 Ideal 772451 IDE 772451 SHIM ,,Exclude
 "Ideal 775103 Wire Marker Book,",,Exclude
 "Ideal 775104 Wire Marker Book,",,Exclude
@@ -70275,7 +70275,7 @@ Ideal BPS2-5 Plastic Insulated,,Exclude
 Ideal Cat5e standard RJ-45 mod,,Wire
 Ideal Caterpillar Outlet Shim,,Exclude
 Ideal Caterpillar Outlet Shims,,Exclude
-Ideal Clearglide Wire Lube 1qt,,Exclude
+Ideal Clearglide Wire Lube 1qt,,Wire
 Ideal Electrician Wire Pulling,,Exclude
 Ideal Industries Powr-Fish Pul,,Exclude
 "Ideal Industries, Inc. 31-340 ",,Exclude
@@ -70401,7 +70401,7 @@ Insinkerator Sink Top STS-00sn,,Exclude
 Insinkerator SinkTop STS-OOSN,,Exclude
 Install (1) Pole,,Exclude
 Install (5) JEA Manholes,,Exclude
-Install Conduit & Wire for Dam,,Exclude
+Install Conduit & Wire for Dam,,Wire
 Install LV & Grd Risers in Bld,,Exclude
 Install Single Line,,Exclude
 Install Underground & Site Rac,,Exclude
@@ -71345,8 +71345,8 @@ Keyless Fixtures,,Exclude
 "Keystone Jack, F 3Ghz, White",,Exclude
 Kidde Fire SM120X Smoke Alarm ,,Exclude
 Kidde SM120X Relay,,Exclude
-Kidde i12010S AC/C Wired Smok,,Exclude
-Kidde i12010S AC/C Wired Smoke,,Exclude
+Kidde i12010S AC/C Wired Smok,,Wire
+Kidde i12010S AC/C Wired Smoke,,Wire
 KiddePro Plus 20 MP 6-A:120-B:,,Exclude
 Kiddie smoke detector model#i4,,Exclude
 Kindorf 1 5/8”,,Exclude
@@ -71370,8 +71370,8 @@ Kirk Key,,Exclude
 "Kit, Gray DL Marking Plate4x",,Exclude
 Kit: KPRL4XPD23G125TXX,,Exclude
 "Klein 31907 Pilot Bit, 1/4"" x",,Exclude
-Klein 51012 Wire Lube Synth W,,Exclude
-Klein 51012 Wire Lube Synth Wa,,Exclude
+Klein 51012 Wire Lube Synth W,,Wire
+Klein 51012 Wire Lube Synth Wa,,Wire
 "Klein 98557 Carpenter Pencil, ",,Exclude
 Klein Bucket of Mule Tape- Rol,,Exclude
 Klein Step Drill Bit #15 #KTSB,,Exclude
@@ -73018,7 +73018,7 @@ LOT UNITS,,Exclude
 LOT UNITS CHG COST CODE,,Exclude
 LOT V24M28T4516 45KVA,,Exclude
 LOT WATTSTOPPER,,Exclude
-LOT WIREMOLDCOMPANY,,Exclude
+LOT WIREMOLDCOMPANY,,Wire
 LOT XFRMER,,Exclude
 LOT: EATON CO 1 - TYPE TG1/LSG,,Exclude
 LOTO KIT,,Exclude
@@ -73630,13 +73630,13 @@ Legrand RFBADEC Decorator Devi,,Exclude
 Legrand Radiant RT2WCCV4 4 But,,Exclude
 Legrand TV-2MW RECESSED TV BOX,,Exclude
 Legrand WP3479-WH,,Exclude
-Legrand Wire Mold Fpbtbs Floor,,Exclude
-Legrand Wiremold Adjusting Rin,,Exclude
-Legrand Wiremold Brushed Alumi,,Exclude
-Legrand Wiremold Two Gang Brus,,Exclude
+Legrand Wire Mold Fpbtbs Floor,,Wire
+Legrand Wiremold Adjusting Rin,,Wire
+Legrand Wiremold Brushed Alumi,,Wire
+Legrand Wiremold Two Gang Brus,,Wire
 Legrand XCSPP2GRU-SV w/ XCSSHE,,Exclude
 Legrand nightlight outlet,,Exclude
-Legrand-Wiremold AV3ATCBK AV3 ,,Exclude
+Legrand-Wiremold AV3ATCBK AV3 ,,Wire
 Lehigh Stage Light Quote Rexel,,Exclude
 Lenox 20566618R RECIPS 618R 6X,,Exclude
 "Lenox 3001414L Hole Saw, 7/8""",,Exclude
@@ -74196,7 +74196,7 @@ Lowe's Pick Up,,Exclude
 Lowes,,Exclude
 Lowes Pick Up Wood,,Exclude
 Lt green paint,,Exclude
-"Lube, Cable-Clear 1-Gallon",,Exclude
+"Lube, Cable-Clear 1-Gallon",,Wire
 Lubricant J Cable Pulling Lubr,,Exclude
 Lug 3/0,,Exclude
 Lug Cover for Breaker,,Exclude
@@ -74209,7 +74209,7 @@ Lugs for 4/0,,Exclude
 Lugs for 400KCMIL Single Barre,,Exclude
 Lugs for 500KCMIL,,Exclude
 Lull Small 20’ Boom,,Exclude
-Lull for unloading the PVC,,Exclude
+Lull for unloading the PVC,,Conduit
 LumaxHeavy-Duty Deluxe Pistol ,,Exclude
 "Lumber Crayon 200,Blue,PK12",,Exclude
 Lumber Crayon in Red,,Exclude
@@ -75304,7 +75304,7 @@ MC ALUM 14/3 SOL COIL,,Exclude
 MC ALUM 6/2,,Exclude
 MC ALUM 6/4,,Exclude
 MC ALUM 8/2,,Exclude
-MC ANTI SHORT BUSHINGS 12/2- 1,,Exclude
+MC ANTI SHORT BUSHINGS 12/2- 1,,Wire
 MC ANTI SHORTS,,Exclude
 MC ANTISHORT,,Exclude
 MC Alum 12/2 Black Cu.,,Wire
@@ -76086,14 +76086,14 @@ MODULES,,Exclude
 MOF,,Exclude
 MOISES GIFT CARD,,Exclude
 MOLD BRUSH,,Exclude
-MOLD CABLE TEE,,Exclude
-MOLD CABLE TO GRD ROD,,Exclude
-MOLD CABLE TO REBAR,,Exclude
+MOLD CABLE TEE,,Wire
+MOLD CABLE TO GRD ROD,,Wire
+MOLD CABLE TO REBAR,,Wire
 MOLD CBL HORZ TEE,,Exclude
 MOLD CBL TO GRDROD VERT TEE,,Exclude
 MOLD HNDL CLAMP,,Exclude
 MOLD SEALER,,Exclude
-"MOLD,CABLE TO REBAR",,Exclude
+"MOLD,CABLE TO REBAR",,Wire
 MOLDABLE PUTTY 7 IN X 7 IN X ,,Exclude
 MOLDABLE PUTTY 7 IN X 7 IN X 1,,Exclude
 MOLDED CASE CIRCUIT BREAKER 2,,Exclude
@@ -83044,7 +83044,7 @@ REC FLOOR BOX RFB4,,Exclude
 REC FLR BOX,,Exclude
 REC FLR BOX -059,,Exclude
 REC FLR BX EXT RING,,Exclude
-REC FLR BX WIREMOLD,,Exclude
+REC FLR BX WIREMOLD,,Wire
 REC HD PLUG 1,,Exclude
 REC SAW BLD 6,,Exclude
 REC SUB-PLT,,Exclude
@@ -83858,7 +83858,7 @@ RGD COUP 3,,Exclude
 RGD COUP 3-1/2,,Exclude
 RGD COUP 3/4,,Exclude
 RGD CVR/GASK 2,,Exclude
-RGD EMT HNGR W/BOLT 1,,Exclude
+RGD EMT HNGR W/BOLT 1,,Conduit
 RGD END CAP,,Exclude
 RGD LB 1,,Exclude
 RGD LB 2,,Exclude
@@ -87846,7 +87846,7 @@ SIMENS 125H VA41 1P 70AMP,,Exclude
 SIMENS QF3,,Exclude
 "SIMPSON 1 1/4"" PDPAWL-125 (100",,Exclude
 "SIMPSON ANCHORS DIA37S 3/8"" SH",,Exclude
-"SIMPush 1/2"" EMT LB Conduit Bo",,Exclude
+"SIMPush 1/2"" EMT LB Conduit Bo",,Conduit
 SIMpull® 16/2 Low Voltage Sign,,Exclude
 SINGLE DECOR PLATES - RWP26W,,Exclude
 SINGLE DECORA COVER PLATE WHI,,Exclude
@@ -90394,7 +90394,7 @@ Steel Kick Plates (With NO tab,,Exclude
 Steel Outlet Box,,Exclude
 Steel Strut,,Exclude
 "Steel Switch Box, 3x2, Gangabl",,Exclude
-Steel Wire Brush For Cadweld M,,Exclude
+Steel Wire Brush For Cadweld M,,Wire
 Steel conduit hanger with bolt,,Exclude
 Steel coupling for 6 inch rig,,Exclude
 Steel drawn 4-11/16 in. square,,Exclude
@@ -94288,8 +94288,8 @@ Type GA Gardco SVPG,,Exclude
 Type GAE - BS101-LED-ECO-4SA-,,Exclude
 Type GAE - BS101-LED-ECO-4SA-H,,Exclude
 Type GE Fixtures (AEL-LVT450H,,Exclude
-Type GT Mold3/0 bare cable to ,,Exclude
-Type GT Mold4/0 bare Horizonta,,Exclude
+Type GT Mold3/0 bare cable to ,,Wire
+Type GT Mold4/0 bare Horizonta,,Wire
 Type Garage Exit Combo - Beghe,,Exclude
 Type Garage Exit w/ Batt b/u -,,Exclude
 Type H / ASD Outdoor Sconce,,Exclude
@@ -94393,7 +94393,7 @@ Type N CPX 1x4,,Exclude
 Type N Surface Kit,,Exclude
 Type NI1,,Exclude
 Type NT Mold 3/0 bare Horizont,,Exclude
-Type NT Mold4/0 bare Horizonta,,Exclude
+Type NT Mold4/0 bare Horizonta,,Wire
 Type OC,,Exclude
 Type P (Kitchen Pendant),VARAL,Exclude
 Type P (Kitchen Pendent),,Exclude
@@ -94414,8 +94414,8 @@ Type P7 - SAT S11370,,Exclude
 Type P7 - TRO F5954 ,,Exclude
 Type P8,,Exclude
 Type P: BST BVTPLED-40-4KMV-ET,,Exclude
-Type PC Mold  3/0 bare CABLE T,,Exclude
-Type PC Mold 4/0 bare CABLE TO,,Exclude
+Type PC Mold  3/0 bare CABLE T,,Wire
+Type PC Mold 4/0 bare CABLE TO,,Wire
 Type PE (Black): BST BLEDEM-C,,Exclude
 Type PE: BVTPLED-40-4KMV-ET,,Exclude
 "Type PL (same as ""P""): BST BV",,Exclude
@@ -94450,7 +94450,7 @@ Type T&U DriverDRIVERS 96 WATT,,Exclude
 Type T/U (Extrusion/Lens/Mount,,Exclude
 Type T/U (Tape Light Drivers) ,,Exclude
 Type T: SAT 90-445,,Exclude
-Type TC Mold  3/0 bare CABLE -,,Exclude
+Type TC Mold  3/0 bare CABLE -,,Wire
 "Type THHN Building Wire, Reel ",,Wire
 "Type THHN Building Wire, Reel/",,Wire
 Type THQL breaker blanks,,Exclude
@@ -95346,7 +95346,7 @@ VCO-140TDPLNPOSM,,Exclude
 VCheep White painters caulk,,Exclude
 VD Terminations & Certificatio,,Exclude
 VD/Access Control/CCTV/Interco,,Exclude
-VDV Apprentice Cable Installat,,Exclude
+VDV Apprentice Cable Installat,,Wire
 VDW C5E350CMRWHT1000BX CAT 5E,,Exclude
 VDW C6CMRBLU1000BX CAT6 RISER ,,Wire
 VDW CAT6234PUTPCMRBL1000PB CA,,Wire
@@ -96252,7 +96252,7 @@ WIRE 24001-050BOBR,,Wire
 WIRE BASKET SIDE MOUNT CI 1/4,,Wire
 "WIRE BASKET SIDE MOUNT CI 1/4""",,Wire
 WIRE BOOK 1-45,,Exclude
-WIRE BRUSH,,Exclude
+WIRE BRUSH,,Wire
 WIRE BRUSH-HOSE CLAMP-GROUT SE,,Exclude
 WIRE BUIDLING,,Wire
 WIRE BUILDING,,Wire
@@ -96271,13 +96271,13 @@ WIRE HLDR,,Wire
 WIRE LABOR - 01,,Wire
 WIRE LP-478,,Wire
 WIRE LP478,,Wire
-WIRE LUBE,,Exclude
-WIRE LUBE 1 GALLON,,Exclude
-WIRE LUBE 5 GAL,,Exclude
-WIRE LUBE 5 GALLON,,Exclude
-WIRE LUBE GAL,,Exclude
-WIRE LUBE SEMI-SYN 1 QUART BO,,Exclude
-WIRE LUBE SEMI-SYN 1 QUART BOT,,Exclude
+WIRE LUBE,,Wire
+WIRE LUBE 1 GALLON,,Wire
+WIRE LUBE 5 GAL,,Wire
+WIRE LUBE 5 GALLON,,Wire
+WIRE LUBE GAL,,Wire
+WIRE LUBE SEMI-SYN 1 QUART BO,,Wire
+WIRE LUBE SEMI-SYN 1 QUART BOT,,Wire
 WIRE LUBRICANT (SOAP),,Wire
 WIRE MAKER BOOK 1-45,,Exclude
 WIRE MARKER BK 1-45,,Exclude
@@ -96346,15 +96346,15 @@ WIRECONNRED(#16TO#10),,Wire
 WIRECONNYEL(#18TO#12),,Wire
 WIREMKR BK 1-45,,Wire
 WIREMKR BK 46-90,,Wire
-WIREMOLD 6STCP,,Exclude
-"WIREMOLD 6STCP 6"" STEM ASSEMBL",,Exclude
-"WIREMOLD 8STCP 8"" STEM ASSEMBL",,Exclude
-WIREMOLD 8STPC,,Exclude
-WIREMOLD V5744-3 STL EXTRA DE,,Exclude
-WIREMOLD WH2010B,,Exclude
-WIREMOLD WH20GB512,,Exclude
-WIREMOLD WH20GB612,,Exclude
-WIREMOLD WMPAC525FW,,Exclude
+WIREMOLD 6STCP,,Wire
+"WIREMOLD 6STCP 6"" STEM ASSEMBL",,Wire
+"WIREMOLD 8STCP 8"" STEM ASSEMBL",,Wire
+WIREMOLD 8STPC,,Wire
+WIREMOLD V5744-3 STL EXTRA DE,,Wire
+WIREMOLD WH2010B,,Wire
+WIREMOLD WH20GB512,,Wire
+WIREMOLD WH20GB612,,Wire
+WIREMOLD WMPAC525FW,,Wire
 WIREMUT GRY,,Wire
 WIRENUT,,Exclude
 WIRENUT 72B BLUE 100PC/BX,,Exclude
@@ -97307,15 +97307,15 @@ Wire 14/2 Unsh. FPLR Red Sol,,Wire
 Wire 16/2 Sol Unshield. FPLR R,,Wire
 Wire 18/2 Unsh. FPLR Red Sol,,Wire
 Wire Belden 9841,,Wire
-Wire Brush,,Exclude
+Wire Brush,,Wire
 "Wire Connector, Tan/Red, Twist",,Exclude
 "Wire Connector, Winged, Blue",,Exclude
 Wire Cutting Charge,,Wire
-Wire Lube,,Exclude
-Wire Lube 1 Gal,,Exclude
-Wire Lube 1 Gallon,,Exclude
-Wire Lube Synth Wax 1 Gal Pl,,Exclude
-Wire Lube Yellow 77 ,,Exclude
+Wire Lube,,Wire
+Wire Lube 1 Gal,,Wire
+Wire Lube 1 Gallon,,Wire
+Wire Lube Synth Wax 1 Gal Pl,,Wire
+Wire Lube Yellow 77 ,,Wire
 "Wire Marker Bklt, Asst A-Z, 0-",,Exclude
 Wire Marker Book 1-45,,Exclude
 Wire Marker Book 46-90,,Exclude
@@ -97327,7 +97327,7 @@ Wire Marker Books 46-94,,Exclude
 Wire Marker Books Vinyl Cloth ,,Exclude
 Wire Marker books,,Exclude
 Wire Market Book Numbers 43-83,,Exclude
-"Wire Mold 2"" Hubs",,Exclude
+"Wire Mold 2"" Hubs",,Wire
 Wire Mold Fan box (WIREMOLD V,,Exclude
 Wire Mold Fan box (WIREMOLD V5,,Exclude
 Wire Nut - Yellow,,Exclude
@@ -97394,56 +97394,56 @@ Wire-Nut 72B Blue,,Exclude
 "Wire-aide Pull Lube, 1 Gal Bkt",,Exclude
 "Wire-aide Pull Lube, 5 Gal Bkt",,Exclude
 Wireless Clocks,,Wire
-Wiremold 1 Gang Brass Falnge 8,,Exclude
-Wiremold 2348-3-wh,,Exclude
-Wiremold 238-2-wh,,Exclude
-Wiremold 2444-FW Extra Deep D,,Exclude
-Wiremold 500 Series 10 ft. Met,,Exclude
-Wiremold 500 Series 5 ft. Meta,,Exclude
-Wiremold 6PPS 6IN PRE-POUR COR,,Exclude
-Wiremold 700 Series Metal Surf,,Exclude
+Wiremold 1 Gang Brass Falnge 8,,Wire
+Wiremold 2348-3-wh,,Wire
+Wiremold 238-2-wh,,Wire
+Wiremold 2444-FW Extra Deep D,,Wire
+Wiremold 500 Series 10 ft. Met,,Wire
+Wiremold 500 Series 5 ft. Meta,,Wire
+Wiremold 6PPS 6IN PRE-POUR COR,,Wire
+Wiremold 700 Series Metal Surf,,Wire
 Wiremold 817C Cover Plate Flan,,Exclude
 Wiremold 881 Floor Box Assemb,,Exclude
 Wiremold 881 Floor Box Assembl,,Exclude
-Wiremold 881ADP Adjustable Le,,Exclude
+Wiremold 881ADP Adjustable Le,,Wire
 Wiremold 881DIV Floor Box Div,,Exclude
 Wiremold 887B Floor Box,,Exclude
 Wiremold 895TCAL Floor Box Co,,Exclude
-Wiremold 895TCAL-BS Duplex Pow,,Exclude
-Wiremold CP10-S30,,Exclude
+Wiremold 895TCAL-BS Duplex Pow,,Wire
+Wiremold CP10-S30,,Wire
 Wiremold CP10TS Wall Duct Fit,,Exclude
-Wiremold CP18-F30,,Exclude
-Wiremold CP18-S30,,Exclude
-Wiremold DTB-2-4TKO Communicat,,Exclude
+Wiremold CP18-F30,,Wire
+Wiremold CP18-S30,,Wire
+Wiremold DTB-2-4TKO Communicat,,Wire
 Wiremold Extention box 2348S/5,,Exclude
-Wiremold G3001 Coupling,,Exclude
+Wiremold G3001 Coupling,,Wire
 Wiremold NM2 NM Series Plugmo,,Exclude
 Wiremold NM2 NM Series Plugmol,,Exclude
-Wiremold NM2048-WH,,Exclude
-"Wiremold Non-Metallic, Single ",,Exclude
-Wiremold RC7ATCAB Poke-Thru D,,Exclude
+Wiremold NM2048-WH,,Wire
+"Wiremold Non-Metallic, Single ",,Wire
+Wiremold RC7ATCAB Poke-Thru D,,Wire
 "Wiremold RFB4 Combination Box,",,Exclude
 Wiremold RFB4E Combination Box,,Exclude
-Wiremold RP4CTCAB ACTIVATION ,,Exclude
-Wiremold Rfba2r30og,,Exclude
-Wiremold V3000B Base Ivory,,Exclude
+Wiremold RP4CTCAB ACTIVATION ,,Wire
+Wiremold Rfba2r30og,,Wire
+Wiremold V3000B Base Ivory,,Wire
 Wiremold V3000CE Cover Ivory,,Exclude
-Wiremold V3010 AE Entry End Iv,,Exclude
-Wiremold V3010B Blank End Ivor,,Exclude
+Wiremold V3010 AE Entry End Iv,,Wire
+Wiremold V3010B Blank End Ivor,,Wire
 Wiremold V3043BE Duplex Recept,,Exclude
 Wiremold V3048R GFCI Receptacl,,Exclude
 Wiremold V504 Ivory Strap,,Exclude
-Wiremold V511 Flat Elbow,,Exclude
+Wiremold V511 Flat Elbow,,Wire
 Wiremold V5738AF Fan Box,,Exclude
-"Wiremold V5739 6-3/8"" Solid B",,Exclude
-Wiremold WD10W350-60 31/2IND ,,Exclude
-Wiremold WD10W350-ECS,,Exclude
-Wiremold WD10W350-SES,,Exclude
+"Wiremold V5739 6-3/8"" Solid B",,Wire
+Wiremold WD10W350-60 31/2IND ,,Wire
+Wiremold WD10W350-ECS,,Wire
+Wiremold WD10W350-SES,,Wire
 Wiremold WD10W350T Wall Duct ,,Exclude
-Wiremold WD350-CP,,Exclude
-Wiremold WD350-P60 Straight P,,Exclude
-Wiremold WD350-PSE,,Exclude
-Wiremold WH2010A2 Entrance End,,Conduit
+Wiremold WD350-CP,,Wire
+Wiremold WD350-P60 Straight P,,Wire
+Wiremold WD350-PSE,,Wire
+Wiremold WH2010A2 Entrance End,,Wire
 Wiremold WSA42-2 Boxes,,Exclude
 Wiremold WSA42-4 Boxes,,Exclude
 Wiremold boxes,,Exclude
@@ -100337,7 +100337,7 @@ anchors,,Exclude
 anti ox / noalox,,Exclude
 anti oxidizing compound,,Exclude
 anti rattle conduit strap (cad,,Exclude
-anti short bushings for 12/2 m,,Exclude
+anti short bushings for 12/2 m,,Wire
 anti short bushings for 6/3 MC,,Exclude
 "anti shorts 1/2"" (for 8/2 mc",,Exclude
 anti static hose,,Exclude
@@ -100783,10 +100783,10 @@ cadweld 3/0 to vertical steel ,,Exclude
 cadweld electric ignitor (PLU,,Exclude
 cadweld handle (L160SM or equ,,Exclude
 cadweld ignitor,,Exclude
-cadweld mold #3/0 cable to 5/,,Exclude
-cadweld mold #3/0 cable to 5/8,,Exclude
-cadweld mold #3/0 cable to St,,Exclude
-cadweld mold #3/0 cable to Ste,,Exclude
+cadweld mold #3/0 cable to 5/,,Wire
+cadweld mold #3/0 cable to 5/8,,Wire
+cadweld mold #3/0 cable to St,,Wire
+cadweld mold #3/0 cable to Ste,,Wire
 cadweld mold (RRA531K),,Exclude
 cadweld mold for 3/0 copper wi,,Exclude
 cadweld nylon cleaning brushes,,Exclude
@@ -100967,7 +100967,7 @@ cleaning wipes,,Exclude
 "clear 11"" cable ties",,Exclude
 clear cheap safety glasses,,Exclude
 clear glasses,,Exclude
-clear glide wire lube,,Exclude
+clear glide wire lube,,Wire
 clear glide wire pulling lube,,Exclude
 clear lacquer marking paint (i,,Exclude
 clear lube,,Exclude
@@ -104338,8 +104338,8 @@ wire cut charge,,Wire
 wire cuts,,Wire
 wire cuts if that applies for ,,Wire
 wire cutting charge,,Wire
-wire lube,,Exclude
-wire lube 5 gallon,,Exclude
+wire lube,,Wire
+wire lube 5 gallon,,Wire
 wire marker books For Circuits,,Exclude
 wire markers 1-45 Ideal,,Exclude
 wire markers 46-90 Ideal,,Exclude
@@ -104362,7 +104362,7 @@ wire pulling soap 5 Gallon Buc,,Exclude
 wire romex 12/2 ground,,Wire
 wire soap QT bottles,,Wire
 wiremold box single gang,,Exclude
-wiremold lot,,Exclude
+wiremold lot,,Wire
 wirenuts,,Exclude
 wireway closure plate,,Exclude
 wo 4028,,Exclude
