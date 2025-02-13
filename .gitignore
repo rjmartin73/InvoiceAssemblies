@@ -159,3 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 bert_conduit_model/
+bert_trainer.ipynb
+*.ipynb
+bert_conduit_model/checkpoint-290/training_args.bin
+assembly_ml_step1.py
