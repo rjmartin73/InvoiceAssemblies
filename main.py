@@ -48,76 +48,7 @@ wire_exclude_terms = {
     'plate', 'pull', 'push', 'racetrack', 'rcpt', 'recept', 'screw', 'screws', 'square', 'strap', 'stud', 'switch',
     'tap', 'tapcon', 'tie', 'tray', 'tug', 'washer', 'wireway', 'install', 'ush', 'unload', 'wiremold', 'mold', 'alert', 'wired',
     'lube', 'reduc', 'dimmer', 'hold', 'riser', 'bit', 'pigtail', 'bend', 'phillip', ' ma ', 'ma,', ' fa', 'term', 'ship', 'crimp',
-    'pin ', 'offset'}
-
-diameter_class = [
-    {'half': ["1/2"]}, 
-    {'three_quarter': ["3/4"]}, 
-    {'one': ["1"]}, ]
-
-emt_labels = {
-    '1/2" CONDUIT - EMT ','3/4" CONDUIT - EMT ','1" CONDUIT - EMT ','1-1/4" CONDUIT - EMT ',
-    '1-1/2" CONDUIT - EMT ','2" CONDUIT - EMT ','2-1/2" CONDUIT - EMT ','3" CONDUIT - EMT ',
-    '3-1/2" CONDUIT - EMT ','4" CONDUIT - EMT '}
-
-ent_patterns = {
-    '3/4" CONDUIT - ENT',
-    '1" CONDUIT - ENT',
-    '1-1/4" CONDUIT - ENT', }
-
-pvc_patterns ={'1/2" CONDUIT - PVC ','3/4" CONDUIT - PVC ','1" CONDUIT - PVC ','1-1/4" CONDUIT - PVC ',
-                '1-1/2" CONDUIT - PVC ','2" CONDUIT - PVC ','2-1/2" CONDUIT - PVC ','3" CONDUIT - PVC ',
-                '3-1/2" CONDUIT - PVC ','4" CONDUIT - PVC '}
-
-grc_patterns = {'1/2" CONDUIT - GRC','3/4" CONDUIT - GRC','1" CONDUIT - GRC','1-1/4" CONDUIT - GRC',
-                '1-1/2" CONDUIT - GRC','2" CONDUIT - GRC','2-1/2" CONDUIT - GRC','3" CONDUIT - GRC',
-                '3-1/2" CONDUIT - GRC','4" CONDUIT - GRC'}
-
-flex_patterns = {'FLEX/SEALTIGHT/CARFLEX','1/2" FLEX/SEALTIGHT/CARFLEX','3/4" FLEX/SEALTIGHT/CARFLEX',
-                '1" FLEX/SEALTIGHT/CARFLEX','1-1/4" FLEX/SEALTIGHT/CARFLEX','1-1/2" FLEX/SEALTIGHT/CARFLEX',
-                '2" FLEX/SEALTIGHT/CARFLEX','2-1/2" FLEX/SEALTIGHT/CARFLEX','3" FLEX/SEALTIGHT/CARFLEX',
-                '3-1/2" FLEX/SEALTIGHT/CARFLEX','4" FLEX/SEALTIGHT/CARFLEX'}
-
-wire_patterns = {
-    '#14-#6 MC/ROMEX CABLE':re.compile(r'\b#14[-#6]\b|\bMC\b|\bROMEX\b'),
-    'LOW VOLTAGE CABLE':re.compile(r'\bLOW\b|\bVOLTAGE\b|\bCABLE\b'),
-    'DEVICE/JUNCTION BOX MAKEUP':re.compile(r'\bDEVICE\b|\bJUNCTION\b|\bBOX\b|\bMAKEUP\b'),
-    '#14 WIRE THHN/XHHW/OTHER':re.compile(r'\b#14\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#12 WIRE THHN/XHHW/OTHER':re.compile(r'\b#12\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#10 WIRE THHN/XHHW/OTHER':re.compile(r'\b#10\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#8 WIRE THHN/XHHW/OTHER':re.compile(r'\b#8\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#6 WIRE THHN/XHHW/OTHER':re.compile(r'\b#6\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#4-#1/0 MC/ROMEX CABLE':re.compile(r'\b#4[-#1/0]\b|\bMC\b|\bROMEX\b'),
-    '#2/0 AND LARGER MC/ROMEX CABLE':re.compile(r'\b#2/0\b|\bLARGER\b|\bMC\b|\bROMEX\b'),
-    '#4 WIRE THHN/XHHW/OTHER':re.compile(r'\b#4\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#3 WIRE THHN/XHHW/OTHER':re.compile(r'\b#3\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#2 WIRE THHN/XHHW/OTHER':re.compile(r'\b#2\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#1 WIRE THHN/XHHW/OTHER':re.compile(r'\b#1\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#1/0 WIRE THHN/XHHW/OTHER':re.compile(r'\b#1/0\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#2/0 WIRE THHN/XHHW/OTHER':re.compile(r'\b#2/0\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#3/0 WIRE THHN/XHHW/OTHER':re.compile(r'\b#3/0\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#4/0 WIRE THHN/XHHW/OTHER':re.compile(r'\b#4/0\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#250 WIRE THHN/XHHW/OTHER':re.compile(r'\b#250\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#300 WIRE THHN/XHHW/OTHER':re.compile(r'\b#300\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#350 WIRE THHN/XHHW/OTHER':re.compile(r'\b#350\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#400 WIRE THHN/XHHW/OTHER':re.compile(r'\b#400\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#500 WIRE THHN/XHHW/OTHER':re.compile(r'\b#500\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#600 WIRE THHN/XHHW/OTHER':re.compile(r'\b#600\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),
-    '#750 WIRE THHN/XHHW/OTHER':re.compile(r'\b#750\b|\bWIRE\b|\bTHHN\b|\bXHHW\b|\bOTHER\b'),}
-size_patterns = {
-    '1/2"': re.compile(r'\b1/2\b|\b0.5\b'),
-    '3/4"': re.compile(r'\b3/4\b|\b0.75\b'),
-    '1"': re.compile(r'\b1\b(?!/4)'),
-    '1-1/4"': re.compile(r'\b1[- ]?1/4\b'),
-    '1-1/2"': re.compile(r'\b1[- ]?1/2\b'),
-    '2"': re.compile(r'\b2\b'),
-    '2-1/2"': re.compile(r'\b2[- ]?1/2\b'),
-    '3"': re.compile(r'\b3\b'),
-    '3-1/2"': re.compile(r'\b3[- ]?1/2\b'),
-    '4"': re.compile(r'\b4\b')
-}
-
-# print(sorted(conduit_exclude_terms))
+    'pin ', 'offset', 'conduit', 'emt', 'transit', 'support', 'gutter', 'scissor', 'pig'}
 
 def classify_item(description):
     if isinstance(description, str) and date_pattern.search(description) is None:
