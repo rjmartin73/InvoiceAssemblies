@@ -36,14 +36,14 @@ df["ConduitDiameter"] = df["Description"].apply(get_conduit_size)
 #     for x, y in df[df["ActualLabel"], df["Description"]]:
 #         print(f"{y} {x} {get_conduit_size(y)}")
 
-df["AssemblyDescription"] = df["ConduitDiameter"].astype(str) + ' ' + df["ConduitType"].astype(str)
-df["AssemblyDescription"] = df["AssemblyDescription"].str.replace('""', '"', regex=False)
+# df["ConduitDiameter"] = df["ConduitDiameter"].astype(str)
+# df["AssemblyDescription"] = df["AssemblyDescription"].str.replace('""', '"', regex=False)
 
-df_size_training = df[["Description", "AssemblyDescription"]]
+df_size_training = df[["Description", "ConduitDiameter"]]
 df_size_training = df_size_training.sample(n=2000, random_state=42)
 
 
-df_size_training.to_csv("./assets/conduit_sized.csv", index=False)
+df_size_training.to_csv("./assets/conduit_diameter_train.csv", index=False)
 
 # print(get_conduit_size(description=description.replace("- ", " ").replace(" -", " ")))
 
