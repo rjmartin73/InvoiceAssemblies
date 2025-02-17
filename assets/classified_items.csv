@@ -713,7 +713,7 @@ electrician screw kit  (vari,,Exclude
 #1/0 XHHW AL-Black,,Wire
 #1/0 XHHW Aluminum Green,,Wire
 #1/0 XHHW BLACK,,Wire
-#1/0/3C SER Cable reduced siz,,Wire
+#1/0/3C SER Cable reduced siz,,Exclude
 #10  BLACK THHN,,Wire
 #10  WHITE THHN,,Wire
 #10 22-16 SPADE,,Wire
@@ -1784,8 +1784,8 @@ electrician screw kit  (vari,,Exclude
 #16 STR TFFN  Purple (1000' Sp,,Wire
 #16 THHN  RED,,Wire
 #16 THHN BLACK,,Wire
-#16 awg Dimmer cable (violet&,,Wire
-#16 awg Dimmer cable (violet&p,,Wire
+#16 awg Dimmer cable (violet&,,Exclude
+#16 awg Dimmer cable (violet&p,,Exclude
 #16 thhn black stranded,,Wire
 #16 thhn blue stranded,,Wire
 #16 thhn purple stranded,,Wire
@@ -1972,7 +1972,7 @@ electrician screw kit  (vari,,Exclude
 #2/0 THWN WIRE,,Wire
 #2/0 XHHW AL,,Wire
 #2/0-4+plus ground  ser cable ,,Wire
-#2/0/3C SER Cable reduced siz,,Wire
+#2/0/3C SER Cable reduced siz,,Exclude
 #2/2/2/4 Alum URD Cable,,Wire
 #2/4C Cord SOW,,Exclude
 #208 x 1-3/8 in. Zinc-Plated S,,Exclude
@@ -2108,7 +2108,7 @@ electrician screw kit  (vari,,Exclude
 #3/0 XHHW Aluminum Green,,Wire
 #3/0 XHHW BLACK - AL,,Wire
 #3/0-3/0-3/0  ground ALUM COND,,Exclude
-#3/0/3C SER Cable reduced siz,,Wire
+#3/0/3C SER Cable reduced siz,,Exclude
 #3/0THHNBLACK,,Wire
 #300 AL XHHW,,Wire
 #300 Kcmil THHN Black CU,,Wire
@@ -2364,7 +2364,7 @@ electrician screw kit  (vari,,Exclude
 #4/0 bare copper,,Wire
 #4/0 split bolts,,Exclude
 #4/0-4/0-4/0ground ALUM CONDUC,,Wire
-#4/0/3C SER Cable reduced siz,,Wire
+#4/0/3C SER Cable reduced siz,,Exclude
 #4/3 romex with ground,,Wire
 #4/4 mc low colored,,Exclude
 #400 AL XHHW,,Wire
@@ -5174,7 +5174,7 @@ $VS RED - SWX 123-RD,,Exclude
 042620NCP DAYTONA,,Exclude
 0461-317,,Exclude
 046MO09 7350-15.3,,Exclude
-047 CAT6-CMR-BL-P RISERBLUEPOP,,Wire
+047 CAT6-CMR-BL-P RISERBLUEPOP,,Exclude
 0476-304,,Exclude
 048MO01 RR15SWTR,,Exclude
 5/1/2022,,Exclude
@@ -8058,7 +8058,7 @@ $VS RED - SWX 123-RD,,Exclude
 1 1/2 EMT 30's,,Conduit
 1 1/2 EMT 90 Elbows,,Exclude
 1 1/2 EMT CMP CONN RAINTIGHT,,Exclude
-1 1/2 EMT CMP CPL,,Conduit
+1 1/2 EMT CMP CPL,,Exclude
 1 1/2 EMT Couplings Set Screw,,Exclude
 1 1/2 EMT MINERALACS,,Conduit
 1 1/2 EMT SET SCREW CONNECTORS,,Exclude
@@ -8814,7 +8814,7 @@ $VS RED - SWX 123-RD,,Exclude
 1 1/4 CONDUIT - PVC40 - 20,,Conduit
 1 1/4 EMT CMP CONN,,Exclude
 1 1/4 EMT CMP CONN RAINTIGHT,,Exclude
-1 1/4 EMT CMP CPL RAINTIGHT,,Conduit
+1 1/4 EMT CMP CPL RAINTIGHT,,Exclude
 1 1/4 EMT Mini Straps,,Exclude
 1 1/4 EMT SS CONN,,Exclude
 1 1/4 EMT Strut Straps,,Exclude
@@ -9478,7 +9478,7 @@ $VS RED - SWX 123-RD,,Exclude
 1 EMT - 1 FLEX COUP,,Exclude
 1 EMT - STUD,,Conduit
 1 EMT 3/4 RMC 1 PC STRUT CLAMP,,Exclude
-1 EMT CMO CPL,,Conduit
+1 EMT CMO CPL,,Exclude
 1 EMT CMOCON OQY 21015-088PR,,Conduit
 1 EMT CMP CON,,Conduit
 1 EMT CMP CONN,,Exclude
@@ -9616,7 +9616,7 @@ $VS RED - SWX 123-RD,,Exclude
 1 IN COND HGR W BOLT,,Exclude
 1 IN EMT,,Conduit
 1 IN EMT CMP CONN RAINTIGHT,,Exclude
-1 IN EMT CMP CPL RAINTIGHT,,Conduit
+1 IN EMT CMP CPL RAINTIGHT,,Exclude
 1 IN EMT COMPRESSION COUPLING ,,Exclude
 1 IN EMT PIPE STRAP,,Exclude
 1 IN EMT STRAP,,Exclude
@@ -10110,7 +10110,7 @@ $VS RED - SWX 123-RD,,Exclude
 "1"" EMT 90 Degree Elbow",,Exclude
 "1"" EMT CLIPS",,Exclude
 "1"" EMT CMP CONN",,Exclude
-"1"" EMT CMP CPL",,Conduit
+"1"" EMT CMP CPL",,Exclude
 "1"" EMT COMP CONNECTORS",,Exclude
 "1"" EMT COMP COUP STL",,Exclude
 "1"" EMT COMP COUPLINGS",,Exclude
@@ -11305,7 +11305,7 @@ $VS RED - SWX 123-RD,,Exclude
 1-1/2 EMT - FLEX,,Conduit
 1-1/2 EMT 45D,,Exclude
 1-1/2 EMT CMP CONN,,Exclude
-1-1/2 EMT CMP CPL,,Conduit
+1-1/2 EMT CMP CPL,,Exclude
 1-1/2 EMT CONDUIT,,Conduit
 1-1/2 EMT CONN,,Exclude
 1-1/2 EMT COUNDUITS,,Conduit
@@ -11871,7 +11871,7 @@ $VS RED - SWX 123-RD,,Exclude
 1-1/4 EMT CONDUIT,,Conduit
 1-1/4 EMT CONN,,Exclude
 1-1/4 EMT HNGR W/BOLT,,Exclude
-1-1/4 EMT SS CON S/B CPL,,Conduit
+1-1/4 EMT SS CON S/B CPL,,Exclude
 1-1/4 EMT STRAP,,Exclude
 1-1/4 EMT-FLEX,,Conduit
 1-1/4 END CAP,,Exclude
@@ -12894,7 +12894,7 @@ $VS RED - SWX 123-RD,,Exclude
 1/0-3 INS TAPCON,,Exclude
 1/0-3 MC,,Exclude
 1/0-3 SER ALUM,,Exclude
-1/0-3C SER cable reduced size ,,Wire
+1/0-3C SER cable reduced size ,,Exclude
 1/0-4 AL MC Connector,,Exclude
 1/0-4 CU MC Connector,,Exclude
 1/0-STR-GRN THHN/THWN-2 19 STR,,Wire
@@ -13076,7 +13076,7 @@ $VS RED - SWX 123-RD,,Exclude
 1/2 EMT CMP CONN,,Exclude
 1/2 EMT CMP CONN RAINTIGHT,,Exclude
 1/2 EMT CMP CONN RAINTIGHT INS,,Exclude
-1/2 EMT CMP CPL RAINTIGHT,,Conduit
+1/2 EMT CMP CPL RAINTIGHT,,Exclude
 1/2 EMT CMPCON NOT AMER,,Conduit
 1/2 EMT CMPCON OQY 21015-088PR,,Conduit
 1/2 EMT Mini Stap,,Conduit
@@ -13085,7 +13085,7 @@ $VS RED - SWX 123-RD,,Exclude
 1/2 EMT SET SCREW CONNECTORS,,Exclude
 1/2 EMT SET SCREWS COUPLINGS,,Exclude
 1/2 EMT SS CONN,,Exclude
-1/2 EMT SS CPL,,Conduit
+1/2 EMT SS CPL,,Exclude
 1/2 EMT STRAP,,Exclude
 1/2 EMT To 1/2 Greenfield Flex,,Conduit
 1/2 EMT To Flex Change Over C,,Exclude
@@ -19876,7 +19876,7 @@ $VS RED - SWX 123-RD,,Exclude
 12/2 CU NM-B W/G 250-FT,,Wire
 12/2 CU Rubber Coated MC Cable,,Wire
 12/2 Copper MC Cable,,Wire
-12/2 DIMMER WIRE,,Wire
+12/2 DIMMER WIRE,,Exclude
 12/2 DIMMING WIRE,,Wire
 12/2 Direct Burial Landscaping,,Exclude
 12/2 Double Barrel MC Connecto,,Wire
@@ -19994,9 +19994,9 @@ $VS RED - SWX 123-RD,,Exclude
 12/2 MC cable,,Wire
 12/2 MC cable reels,,Wire
 12/2 MC copper,,Wire
-12/2 MC with Dimmer Luminary ,,Wire
-12/2 MC with Dimmer Luminary C,,Wire
-12/2 MC with Dimmer Wire,,Wire
+12/2 MC with Dimmer Luminary ,,Exclude
+12/2 MC with Dimmer Luminary C,,Exclude
+12/2 MC with Dimmer Wire,,Exclude
 12/2 MC-CABLE HV BRN/GRY-1000R,,Wire
 12/2 MCLITE,,Wire
 12/2 Mc,,Wire
@@ -20090,7 +20090,7 @@ $VS RED - SWX 123-RD,,Exclude
 12/2 mc cable,,Wire
 "12/2 mc cable solid, AL",,Wire
 12/2 mc cable with 16/2 0-10 d,,Wire
-12/2 mc cable with 16/2 dimmer,,Wire
+12/2 mc cable with 16/2 dimmer,,Exclude
 12/2 mc connectors double,,Exclude
 12/2 mc medical grade,,Wire
 12/2 mc w/ground,,Wire
@@ -20111,7 +20111,7 @@ $VS RED - SWX 123-RD,,Exclude
 12/2-14/2 STRAP,,Exclude
 12/2-16/2 MC,,Wire
 12/2-UF CABLE- 250 Ft Reels,,Wire
-12/2/ mc cable with dimmer wir,,Wire
+12/2/ mc cable with dimmer wir,,Exclude
 12/2/2 ROMEX,,Wire
 12/2/2 UF,,Wire
 12/20/20 FLAMING,,Exclude
@@ -21319,14 +21319,14 @@ $VS RED - SWX 123-RD,,Exclude
 14/2 FA CABLE,,Wire
 14/2 FA Cable Red Unshielded (,,Wire
 14/2 FA Cable Yellow Unsheiled,,Wire
-14/2 FPL RISER,,Wire
+14/2 FPL RISER,,Exclude
 14/2 FPLP BLACK,,Wire
 14/2 FPLP Plenum Shielded Fire,,Wire
 14/2 FPLP RED,,Wire
 14/2 FPLP UNS BLUE (SPEAKER),,Wire
 14/2 FPLP White (NAC),,Wire
 14/2 FPLP White (NAC) 1000',,Wire
-14/2 FPLP Yellow (Door Holder),,Wire
+14/2 FPLP Yellow (Door Holder),,Exclude
 14/2 FPLR,,Wire
 14/2 FPLR CONDUCTORS,,Exclude
 14/2 FPLR Cable spool,,Wire
@@ -21360,7 +21360,7 @@ $VS RED - SWX 123-RD,,Exclude
 "14/2 Romex 1,000' Spools",,Wire
 14/2 Romex 1000' reels,,Wire
 14/2 Romex Wire,,Wire
-14/2 SH RISER,,Wire
+14/2 SH RISER,,Exclude
 14/2 SOL FPLR,,Wire
 14/2 SOL FPLR RED,,Wire
 14/2 SOL NS FPLR RED,,Wire
@@ -22164,7 +22164,7 @@ $VS RED - SWX 123-RD,,Exclude
 16-2 Fire Alarm Wire,,Wire
 16-2 LUMIN CR RECR,,Exclude
 16-2 LUMINARY,,Exclude
-"16-2 Lv Dimmer Wire pink, Vio",,Wire
+"16-2 Lv Dimmer Wire pink, Vio",,Exclude
 16-2 NP FA CABLE,,Wire
 16-2 NS NP FA CABLE,,Wire
 16-2 NSNP,,Exclude
@@ -22218,7 +22218,7 @@ $VS RED - SWX 123-RD,,Exclude
 16/2 SOL FPLR RED,,Exclude
 16/2 SOL NS FPLR BLU,,Exclude
 16/2 SOL SH FA RED,,Exclude
-16/2 STR DIMMER CABLE,,Wire
+16/2 STR DIMMER CABLE,,Exclude
 16/2 Shielded Fire Alarm Cable,,Wire
 16/2 UNSHIELDED FPLP RED JACKE,,Exclude
 16/2 Unshielded FPLP Red Jack,,Exclude
@@ -22531,16 +22531,16 @@ $VS RED - SWX 123-RD,,Exclude
 18-2 1000' non-plenum,,Exclude
 18-2 Belden Wire 1000’,,Wire
 18-2 CABLE,,Wire
-18-2 DIMMER CABLE PUR/GRY,,Wire
+18-2 DIMMER CABLE PUR/GRY,,Exclude
 18-2 FPLP STR,,Exclude
 18-2 FPLR,,Exclude
 18-2 FPLR SH SOL RED,,Exclude
 18-2 Fire Alrarm Wire,,Wire
 18-2 Fplr Outdoor Wire,,Wire
 18-2 Fplr Red Jacket Wire,,Wire
-18-2 Low Voltage Dimmer Wire W,,Wire
+18-2 Low Voltage Dimmer Wire W,,Exclude
 18-2 Low Voltage Wire White ja,,Wire
-"18-2 Lv Dimmer Wire pink, Viol",,Wire
+"18-2 Lv Dimmer Wire pink, Viol",,Exclude
 18-2 NP FA CABLE,,Wire
 18-2 PLENUM,,Exclude
 18-2 RISER,,Exclude
@@ -24290,7 +24290,7 @@ $VS RED - SWX 123-RD,,Exclude
 2 1/2 EMT Conduit,,Conduit
 2 1/2 EMT One Hole Strap,,Exclude
 2 1/2 EMT RGD SS CONN,,Exclude
-2 1/2 EMT RGD SS CPL,,Conduit
+2 1/2 EMT RGD SS CPL,,Exclude
 2 1/2 EMT/RIGID TO FLEX CONT,,Exclude
 2 1/2 FLEX STRAIGHTS CONNECTOR,,Exclude
 2 1/2 FMC 90 CONN,,Exclude
@@ -24958,10 +24958,10 @@ $VS RED - SWX 123-RD,,Exclude
 2 IN Coupling,,Exclude
 2 IN D C KO HUB,,Exclude
 2 IN EMT,,Conduit
-2 IN EMT CMP CPL,,Conduit
+2 IN EMT CMP CPL,,Exclude
 2 IN EMT COMP CONN W/ INSULATE,,Exclude
 2 IN EMT PIPE STRAP,,Exclude
-2 IN EMT SS CPL,,Conduit
+2 IN EMT SS CPL,,Exclude
 2 IN FLEX NM,,Conduit
 2 IN GALV CPLG,,Exclude
 2 IN GRND BSHNG INS,,Exclude
@@ -27044,8 +27044,8 @@ $VS RED - SWX 123-RD,,Exclude
 2-1/2D MASONRY BOX 3KO,,Exclude
 2-1/2D MASONRY BOX 4KO,,Exclude
 2-1/2D SW BOX W/EARS&KO,,Exclude
-2-1/2IN EMT CPL,,Conduit
-2-1/2IN EMT CPL RAINTI,,Conduit
+2-1/2IN EMT CPL,,Exclude
+2-1/2IN EMT CPL RAINTI,,Exclude
 2-1/2SS,,Exclude
 2-1/2X2 RED BUSH,,Exclude
 2-1/2```` emt 22-1/2* bends,,Conduit
@@ -27622,7 +27622,7 @@ $VS RED - SWX 123-RD,,Exclude
 2/0-3C SER AL,,Exclude
 2/0-3C SER AL 1000' REELS,,Exclude
 2/0-3C SER Aluminum 1000',,Exclude
-2/0-3C SER cable reduced size ,,Wire
+2/0-3C SER cable reduced size ,,Exclude
 2/0-4 Al MC Connector,,Exclude
 2/0-4 SER ALUM (3 PHASE 5 COND,,Exclude
 2/0-4 THHN STR,,Wire
@@ -30100,7 +30100,7 @@ $VS RED - SWX 123-RD,,Exclude
 24' MANLIFT  9/28-9/30,,Exclude
 24' extension ladder,,Exclude
 24'' DOWN ROD,,Exclude
-24'' to 18'' Reducer Cable Tra,,Wire
+24'' to 18'' Reducer Cable Tra,,Exclude
 24''x24''x24'' T Cable Tray,,Exclude
 24-1 NP BELDEN COMP CBL,,Exclude
 24-2 NP BELDEN,,Exclude
@@ -30208,7 +30208,7 @@ $VS RED - SWX 123-RD,,Exclude
 2469,,Exclude
 247 1-1/2-EMT STL THINWALLCOND,,Conduit
 247 14073 SILICONE SEALANT,,Exclude
-247 464 CCH1-1/2STL S/S EMTCPL,,Conduit
+247 464 CCH1-1/2STL S/S EMTCPL,,Exclude
 2475,,Exclude
 2478,,Exclude
 2479,,Exclude
@@ -30573,7 +30573,7 @@ $VS RED - SWX 123-RD,,Exclude
 250-6 TAP CONN,,Exclude
 250-Watt Portable Halogen Work,,Exclude
 250-Watt T3 R7 Short Base Dimm,,Exclude
-250-ft Braided Fluorescent Ora,,Conduit
+250-ft Braided Fluorescent Ora,,Exclude
 250/250/250/#2 SER ALUMINUM,,Exclude
 250/250/250/250/#1 AL 4-wire ,,Wire
 250/250/250/250/#1 AL 4-wire w,,Wire
@@ -31044,7 +31044,7 @@ $VS RED - SWX 123-RD,,Exclude
 2843,,Exclude
 2846,,Exclude
 2849,,Exclude
-285 A03702007 FLUORESCENT ORNG,,Conduit
+285 A03702007 FLUORESCENT ORNG,,Exclude
 285 MIN ORDER AUSTIN ELEC ENCL,,Exclude
 2850,,Exclude
 2852,,Exclude
@@ -33007,7 +33007,7 @@ $VS RED - SWX 123-RD,,Exclude
 "3"" PVC BELL END CONNECTOR",,Exclude
 "3"" PVC BELL END SCH 40",,Exclude
 "3"" PVC BUSHING",,Exclude
-"3"" PVC Base Spacer",,Conduit
+"3"" PVC Base Spacer",,Exclude
 "3"" PVC Bell end",,Exclude
 "3"" PVC Box adapter",,Exclude
 "3"" PVC Bushings",,Exclude
@@ -34008,7 +34008,7 @@ $VS RED - SWX 123-RD,,Exclude
 3/0-3C / SER Aluminum 1000',,Exclude
 3/0-3C SER AL,,Exclude
 3/0-3C SER AL 1000' REELS,,Exclude
-3/0-3C SER cable reduced size,,Wire
+3/0-3C SER cable reduced size,,Exclude
 3/0-4 CU MC Connector,,Exclude
 3/0-4/0 OLD WORK CEIL BOX,,Exclude
 3/0-4/0 OW CEIL BOX,,Exclude
@@ -34379,8 +34379,8 @@ $VS RED - SWX 123-RD,,Exclude
 3/4 EMT CMP CONN INSULATED,,Exclude
 3/4 EMT CMP CONN RAINTIGHT,,Exclude
 3/4 EMT CMP COUP,,Exclude
-3/4 EMT CMP CPL,,Conduit
-3/4 EMT CMP CPL RAINTIGHT,,Conduit
+3/4 EMT CMP CPL,,Exclude
+3/4 EMT CMP CPL RAINTIGHT,,Exclude
 3/4 EMT COMPRESSION CONNECTORS,,Exclude
 3/4 EMT COMPRESSION COUPLINGS,,Exclude
 3/4 EMT COND HNGR,,Exclude
@@ -34408,7 +34408,7 @@ $VS RED - SWX 123-RD,,Exclude
 3/4 EMT SS CONN,,Exclude
 3/4 EMT SS CONN INSULATED,,Exclude
 3/4 EMT SS COUP,,Exclude
-3/4 EMT SS CPL,,Conduit
+3/4 EMT SS CPL,,Exclude
 3/4 EMT STEEL COMPRESSION CONN,,Exclude
 3/4 EMT STEEL COMPRESSION COUP,,Exclude
 3/4 EMT STEEL THINWALL CONDUIT,,Conduit
@@ -39724,7 +39724,7 @@ $VS RED - SWX 123-RD,,Exclude
 3IN. FACTORY 90,,Exclude
 3INCH CONDUIT HANGER,,Exclude
 3K TUGGER HI-SPD 3000# CABLE P,,Exclude
-3K' Cat 5 Riser RATH AOR Wire,,Wire
+3K' Cat 5 Riser RATH AOR Wire,,Exclude
 3LSLA - NQ MB Panel (INTERIOR,,Exclude
 3M  Scotchkote  Electrical Coa,,Exclude
 3M 06206 120 lb Heavy Duty Ca,,Exclude
@@ -39737,20 +39737,20 @@ $VS RED - SWX 123-RD,,Exclude
 3M 130C-2x30FT Linerless Rubbe,,Exclude
 3M 1400C-3/4X60FT-BL Vinyl Ele,,Exclude
 3M 1400C-3/4X60FT-YL Economy G,,Exclude
-3M 165BK4A 3M Temflex Vinyl El,,Conduit
-3M 165BK4A 7100169254 TEMFLEX ,,Conduit
-3M 165BL4A 3M Temflex Vinyl El,,Conduit
-3M 165BL4A 7100169429 TEMFLEX ,,Conduit
-3M 165BR4A 3M Temflex Vinyl El,,Conduit
-3M 165GR4A 7100169430 TEMFLEX ,,Conduit
-3M 165GY4A 3M Temflex Vinyl El,,Conduit
-3M 165OR4A 3M Temflex Vinyl El,,Conduit
-3M 165PR4A 3M Temflex Vinyl El,,Conduit
-3M 165RD4A 3M Temflex Vinyl El,,Conduit
-3M 165RD4A 7100169492 TEMFLEX ,,Conduit
-3M 165WH4A 3M Temflex Vinyl El,,Conduit
-3M 165WH4A 7100169491 TEMFLEX ,,Conduit
-3M 165YL4A 3M Temflex Vinyl El,,Conduit
+3M 165BK4A 3M Temflex Vinyl El,,Exclude
+3M 165BK4A 7100169254 TEMFLEX ,,Exclude
+3M 165BL4A 3M Temflex Vinyl El,,Exclude
+3M 165BL4A 7100169429 TEMFLEX ,,Exclude
+3M 165BR4A 3M Temflex Vinyl El,,Exclude
+3M 165GR4A 7100169430 TEMFLEX ,,Exclude
+3M 165GY4A 3M Temflex Vinyl El,,Exclude
+3M 165OR4A 3M Temflex Vinyl El,,Exclude
+3M 165PR4A 3M Temflex Vinyl El,,Exclude
+3M 165RD4A 3M Temflex Vinyl El,,Exclude
+3M 165RD4A 7100169492 TEMFLEX ,,Exclude
+3M 165WH4A 3M Temflex Vinyl El,,Exclude
+3M 165WH4A 7100169491 TEMFLEX ,,Exclude
+3M 165YL4A 3M Temflex Vinyl El,,Exclude
 3M 1700-3/4x60ft Vinyl Electri,,Exclude
 3M 1700C-Red-3/4x66FT Vinyl El,,Exclude
 3M 2.875 in. x 4.875 in. x 1 i,,Exclude
@@ -39864,7 +39864,7 @@ $VS RED - SWX 123-RD,,Exclude
 3M SPB-14 7000132487 WIRE MARK,,Wire
 3M Scotchlok insulated connect,,Exclude
 3M Scotchwrap 2” Pipe Wrapping,,Exclude
-3M Temflex Vinyl Electrical Ta,,Conduit
+3M Temflex Vinyl Electrical Ta,,Exclude
 3M Twist On Wire Connector: Bl,,Exclude
 3M UTILITY DUCT TAPE 1.88 X 50,,Exclude
 3M UTILITY DUCTTAPE 1.88 X 50Y,,Exclude
@@ -39885,7 +39885,7 @@ $VS RED - SWX 123-RD,,Exclude
 3M red/yello wire nuts,,Exclude
 3M red/yellow wire nuts,,Exclude
 3M tan red wire nuts,,Exclude
-3M(TM) Temflex(TM) General Use,,Conduit
+3M(TM) Temflex(TM) General Use,,Exclude
 3M-369 Caution High Voltage Ca,,Exclude
 3M-Fire Rated Foam,,Exclude
 3M10.1 fl. oz. Red Fire Barrie,,Exclude
@@ -40549,7 +40549,7 @@ $VS RED - SWX 123-RD,,Exclude
 4 EMT CMP CONN,,Exclude
 4 EMT RGD SS CONN,,Exclude
 4 EMT SS CONN,,Exclude
-4 EMT SS CPL,,Conduit
+4 EMT SS CPL,,Exclude
 4 END CAP,,Exclude
 4 FEMALE ADAPTER,,Exclude
 4 FMC SQZ CONN,,Exclude
@@ -41511,7 +41511,7 @@ $VS RED - SWX 123-RD,,Exclude
 "4"" PVC BEll END",,Exclude
 "4"" PVC BUSHING",,Exclude
 "4"" PVC BUSHINGS",,Exclude
-"4"" PVC Base Spacer",,Conduit
+"4"" PVC Base Spacer",,Exclude
 "4"" PVC Bell End",,Exclude
 "4"" PVC Bell Ends",,Exclude
 "4"" PVC Bell Ends Caps",,Exclude
@@ -43092,7 +43092,7 @@ $VS RED - SWX 123-RD,,Exclude
 4/0 THHN/THWN-2 STRANDED,,Wire
 "4/0 THHn Stranded copper, Gree",,Wire
 4/0 TO 3/4 GROUND ROD DIRECT B,,Wire
-4/0 To 2/0 Crimp On Reducing ,,Wire
+4/0 To 2/0 Crimp On Reducing ,,Exclude
 4/0 USE-2/RHH/RHW-2 Aluminum 1,,Wire
 4/0 Wire XHHW-2 / RW90 - Alumi,,Wire
 4/0 XHHW AL,,Wire
@@ -43147,12 +43147,12 @@ $VS RED - SWX 123-RD,,Exclude
 4/0 thhn yellow cu,,Wire
 4/0 tinted Bare wire,,Wire
 4/0 to 1/0 offset crimp on pin,,Wire
-4/0 to 2/0 reducing offset pin,,Wire
-4/0 to 2/0 reducing pin,,Wire
-4/0 to 2/0 reducing pins (offs,,Wire
-"4/0 to 2/0 reducing pins, ILSC",,Wire
-4/0 to 2/0 str  reducing pin ,,Wire
-4/0 to 2/0 straight pin reduc,,Wire
+4/0 to 2/0 reducing offset pin,,Exclude
+4/0 to 2/0 reducing pin,,Exclude
+4/0 to 2/0 reducing pins (offs,,Exclude
+"4/0 to 2/0 reducing pins, ILSC",,Exclude
+4/0 to 2/0 str  reducing pin ,,Exclude
+4/0 to 2/0 straight pin reduc,,Exclude
 4/0 to 3/4” groundrod through ,,Wire
 "4/0 w/Ground, Aluminum Feeder ",,Wire
 4/0 wire lugs,,Exclude
@@ -43160,7 +43160,7 @@ $VS RED - SWX 123-RD,,Exclude
 4/0-3 SER ALUM,,Wire
 4/0-3C SER AL,,Wire
 4/0-3C SER AL 1000' REELS,,Wire
-4/0-3C SER cable reduced size ,,Wire
+4/0-3C SER cable reduced size ,,Exclude
 4/0-4 MC Cu (2 x 125' reels),,Wire
 4/0-4/0-2/0-4 USE-2/RHH/RHW-2 ,,Wire
 4/0-4/0-4/0-#1 Aluminum MC Cab,,Wire
@@ -47168,7 +47168,7 @@ $VS RED - SWX 123-RD,,Exclude
 5X7 - 4 LINE,,Exclude
 5X7 - 7 LINE,,Exclude
 5X8 NAIL PLT,,Exclude
-5```` pvc cplng  utility prima,,Conduit
+5```` pvc cplng  utility prima,,Exclude
 5gal Bucket Of Fire Caulk,,Exclude
 5gal bucket caulking gun attac,,Exclude
 5gal bucket fire caulk,,Exclude
@@ -51306,7 +51306,7 @@ A/C Rated  4x8 sheets of Plywo,,Exclude
 A/C UNITS-FLANGE-DUCT,,Exclude
 "A/C, TAXES",,Exclude
 A0000267809 CO Sensor for Gene,,Exclude
-A03650004 WC INV FLUORESCENT,,Conduit
+A03650004 WC INV FLUORESCENT,,Exclude
 A1,,Exclude
 A1 - Puck Lights,,Exclude
 A1 ELT-807506-30K-WH,,Exclude
@@ -52694,7 +52694,7 @@ Adjustable Box Mounting Bracke,,Exclude
 Adjustable Mud Ring two Devic,,Exclude
 Adjustable Mud Ring two Device,,Exclude
 Adjustable New Work Outlet Box,,Exclude
-Adjustable Porcelain Wire Hold,,Wire
+Adjustable Porcelain Wire Hold,,Exclude
 Adjustable Quad Mudring (Crous,,Exclude
 Adjustable Spot Light NICOR 12,,Exclude
 "Adjustable Switch/Outlet Box, ",,Exclude
@@ -52889,16 +52889,16 @@ Anti-short bushing. Plastic. T,,Exclude
 Antioxidant Compounds for Cond,,Exclude
 Antishorts 5/16”,,Exclude
 Anvil 44 in. Wood Handle Trans,,Exclude
-Anvil 500 ft fluorescent yello,,Conduit
-Anvil 500 ft. Florescent Pink ,,Conduit
-Anvil 500 ft. Fluorescent Yell,,Conduit
+Anvil 500 ft fluorescent yello,,Exclude
+Anvil 500 ft. Florescent Pink ,,Exclude
+Anvil 500 ft. Fluorescent Yell,,Exclude
 "Anvil Assembly, Quick Connect ",,Exclude
 Anvil10 oz. Drip Free Smooth R,,Exclude
 Anvil29 oz. Dripless Smooth Ro,,Exclude
 "Anvil41 in. Handle, Wood Handl",,Exclude
 Anvil47 in. L Wood Handle Stee,,Exclude
 Anvil47 in. Wood Handle Carbon,,Exclude
-Anvil500 ft. Fluorescent Yello,,Conduit
+Anvil500 ft. Fluorescent Yello,,Exclude
 Apartment & Cottage Piece Work,,Exclude
 Apartment Piece Work,,Exclude
 "Apex UCC, Inc.",,Exclude
@@ -56480,7 +56480,7 @@ CAT5E PATCH CORD 50,,Wire
 CAT5E PATCH CORD 6,,Wire
 CAT5E PLENUM BLU,,Wire
 CAT5E PVC BLUE POP,,Wire
-CAT5E RISER BLU,,Wire
+CAT5E RISER BLU,,Exclude
 CAT5e-sheilded,,Wire
 CAT6,,Wire
 CAT6 23-4P SOL BLU,,Wire
@@ -56496,15 +56496,15 @@ CAT6 JACK,,Wire
 CAT6 MOD PLUG,,Exclude
 CAT6 PASS THRU,,Wire
 CAT6 PLENUM BLU,,Wire
-CAT6 RISER,,Wire
-CAT6 RISER BLU,,Wire
-CAT6 RISER BLUE POP,,Wire
-CAT6 RISER SOL BLU,,Wire
-CAT6 RISER WHITE POP,,Wire
+CAT6 RISER,,Exclude
+CAT6 RISER BLU,,Exclude
+CAT6 RISER BLUE POP,,Exclude
+CAT6 RISER SOL BLU,,Exclude
+CAT6 RISER WHITE POP,,Exclude
 CAT6 RJ45 MOD PLUG,,Exclude
 CAT6 White,,Wire
 CAT6 green shielded cable,,Wire
-CAT6-CMR-BL-P RISER BLUE POP,,Wire
+CAT6-CMR-BL-P RISER BLUE POP,,Exclude
 CAT6A PLENUM BLU,,Wire
 CAT6A Plenum Rated 23 AWG Soli,,Wire
 CAT6E,,Wire
@@ -58157,7 +58157,7 @@ CRESCENT CITY JR SR HS,,Exclude
 CRESCENT CITY PART STARTUP,,Exclude
 CRESCENT CITY SCHOOIPAD REPAIR,,Exclude
 CRESCENT CITY TEAM,,Exclude
-CRESCENT ELECT,,Conduit
+CRESCENT ELECT,,Exclude
 CRESCENTCITY NELSON/LAYTON/REG,,Exclude
 CRESCENTCITY SCH 24219-032AL01,,Exclude
 CRESCENTCITY SCH 24219-032AL02,,Exclude
@@ -59193,15 +59193,15 @@ Cat-6 quickport connector plat,,Exclude
 Cat5,,Wire
 Cat5e Wire 1000' Rolls,,Wire
 Cat6 Blue CMR Cable 2000',,Wire
-Cat6 Blue Cable 1000' Riser,,Wire
+Cat6 Blue Cable 1000' Riser,,Exclude
 Cat6 Unshielded Twisted Pair ,,Wire
 Cat6 Unshielded Twisted Pair C,,Wire
 Cat6 White CMR Cable 3000',,Wire
-Cat6 White Cable 1000' Riser,,Wire
+Cat6 White Cable 1000' Riser,,Exclude
 Cat6 White Cable 1K box 5K tot,,Exclude
 Cat6 blue cable,,Wire
 Cat6E White Cable- 6CMP234BW C,,Wire
-"Category 5e Riser, 24 AWG, 4 P",,Wire
+"Category 5e Riser, 24 AWG, 4 P",,Exclude
 "Category 5e, CMR, 24-4, Non-S",,Exclude
 "Category 5e, CMR, 24-4, Non-Sh",,Exclude
 Caterpillar 320 (50k),,Exclude
@@ -59338,7 +59338,7 @@ Circuit Breaker BAB1020I,,Exclude
 Circuit Directory Sleeve,,Exclude
 Circular Saw Wood Cutting Blad,,Exclude
 "Circulo 24"" Wide LED Ring Cha",,Exclude
-Citrus Scent Heavy-Duty Cleani,,Conduit
+Citrus Scent Heavy-Duty Cleani,,Exclude
 Cj6,,Exclude
 Clamshell - Ground Bar Kit - ,,Exclude
 Claro Wallplate 6 Gng White,,Exclude
@@ -62654,7 +62654,7 @@ EMT CMP COUP 3,,Exclude
 EMT CMP COUP 3-1/2,,Exclude
 EMT CMP COUP 3/4,,Exclude
 EMT CMP COUP 4,,Exclude
-EMT CMP CPL 3,,Conduit
+EMT CMP CPL 3,,Exclude
 EMT CMP PCOUP 1,,Exclude
 EMT COMP  CONN 3/4,,Exclude
 EMT COMP  COUP 2-1/2,,Exclude
@@ -62956,7 +62956,7 @@ EMT34 - CONDUIT - EMT 3/4IN,,Conduit
 EMT4 - CONDUIT - EMT 4IN,,Conduit
 EMT400,,Conduit
 EMTCOMP COUP 3/4,,Exclude
-EMTCPL3/4 OQ,,Conduit
+EMTCPL3/4 OQ,,Exclude
 ENCL KIT BASE,,Exclude
 ENCLAVE,,Exclude
 ENCLAVE 24012-001,,Exclude
@@ -65555,7 +65555,7 @@ Fan stem ROYAL PACIFIC E48 BK,,Exclude
 Fans UF( F874-BN-2E26-L),,Exclude
 Fast Orange hand cleaner,,Exclude
 Febreze Noticeables 0.879 oz. ,,Exclude
-Febreze Noticeables Dual Scent,,Conduit
+Febreze Noticeables Dual Scent,,Exclude
 Fedex,,Exclude
 Feeder MeSuring Tape,,Exclude
 Feet #1 Aluminum THWN (Black),,Wire
@@ -65963,9 +65963,9 @@ Floorbox cover Cover (Gold),,Exclude
 "Floorbox, Replacement Mountin",,Exclude
 "Floorbox, Replacement Mounting",,Exclude
 Floorport Large Flange Blank T,,Exclude
-Fluorescent Green Constructio,,Conduit
-Fluorescent Green Construction,,Conduit
-"Fluorescent Orange,6 In.,Whisk",,Conduit
+Fluorescent Green Constructio,,Exclude
+Fluorescent Green Construction,,Exclude
+"Fluorescent Orange,6 In.,Whisk",,Exclude
 Flush cover for Pull box 12x12,,Exclude
 Flush cover for Pull box 8x8,,Exclude
 "Foam Board Insulation 2""",,Exclude
@@ -70006,7 +70006,7 @@ INV EXITR ON-SITE-STARTUP,,Exclude
 INV EXITR PHX1-3.0-120-120/27,,Exclude
 INV SERVICE CHARGE,,Exclude
 INVERTED BLUE SPRAY PAINT,,Exclude
-INVERTED FLUORESCENTGREEN PAIN,,Conduit
+INVERTED FLUORESCENTGREEN PAIN,,Exclude
 INVERTED ORANGE SPRAY PAINT,,Exclude
 INVERTED PINK SPRAY PAINT,,Exclude
 INVERTED RED SPRAY PAINT,,Exclude
@@ -70475,11 +70475,11 @@ Intrusion,,Exclude
 Intrusion Labor,,Exclude
 Intrusion Materials,,Exclude
 Inverted Clear  Spray Paint,,Exclude
-Inverted Fluorescent Green Pa,,Conduit
-Inverted Fluorescent Green Pai,,Conduit
-Inverted Fluorescent Orange Pa,,Conduit
-Inverted Fluoresent Green Pain,,Conduit
-Inverted Fluoresent Orange Pai,,Conduit
+Inverted Fluorescent Green Pa,,Exclude
+Inverted Fluorescent Green Pai,,Exclude
+Inverted Fluorescent Orange Pa,,Exclude
+Inverted Fluoresent Green Pain,,Exclude
+Inverted Fluoresent Orange Pai,,Exclude
 Inverted Spray Paint Blue,,Exclude
 Inverted blue spray paint     ,,Exclude
 Inverted orange spray paint   ,,Exclude
@@ -79940,15 +79940,15 @@ PAMANA FLATS,,Exclude
 PAN ABMM-A-C CABLETIEMOUNT ADH,,Exclude
 PAN GROM EDG ADH SLD ,,Exclude
 PAN MIWBAWH BOX ADAPTER IN WAL,,Exclude
-PAN S12-50-C  STRONGHOLD CABLE,,Wire
+PAN S12-50-C  STRONGHOLD CABLE,,Exclude
 PAN S12-50-C0 *STRONGHOLD CABL,,Exclude
 PAN S14-120-L0  STRONGHOLD CAB,,Exclude
 PAN S18-175-L0  STRONGHOLD CAB,,Exclude
 PAN S18-175-L0 *STRONGHOLD CA,,Exclude
 PAN S36-175-L0  STRONGHOLD CAB,,Exclude
-PAN S4-18-M *STRONGHOLD CABLE ,,Wire
-PAN S6-18-C  STRONGHOLD CABLE ,,Wire
-PAN S8-40-C0  STRONGHOLD CABLE,,Wire
+PAN S4-18-M *STRONGHOLD CABLE ,,Exclude
+PAN S6-18-C  STRONGHOLD CABLE ,,Exclude
+PAN S8-40-C0  STRONGHOLD CABLE,,Exclude
 PAN SC8-50-S10-C0 *STRONGHOLD ,,Exclude
 PAN SERR SCR,,Exclude
 PANAMA,,Exclude
@@ -84625,20 +84625,20 @@ RXL34W,,Exclude
 RXL5RW,,Exclude
 RXP 050ENTCNN 1/2-ENT-CONN,,Exclude
 RXP 07590ELB 3/4-90D-SCH-40-EL,,Exclude
-RXP 075CPL 3/4-CONDUIT-SCH-40-,,Conduit
+RXP 075CPL 3/4-CONDUIT-SCH-40-,,Exclude
 RXP 075FA 3/4-FEMALE-SCH-40-AD,,Exclude
 RXP 075MA 3/4-SCH-40-TERMINAL-,,Exclude
 RXP 10090ELB 1-IN-90D-SCH-40-E,,Exclude
 RXP 10090ELBBE 1-IN-90D-SCH-40,,Exclude
 RXP 100BE 1-IN-BELL-END,,Exclude
 RXP 100CONDCLMP2HOLE 1-IN-2-HO,,Exclude
-RXP 100CPL 1-IN-CONDUIT-SCH-4,,Conduit
-RXP 100CPL 1-IN-CONDUIT-SCH-40,,Conduit
+RXP 100CPL 1-IN-CONDUIT-SCH-4,,Exclude
+RXP 100CPL 1-IN-CONDUIT-SCH-40,,Exclude
 RXP 100FA 1-IN-FEMALE-SCH-40-A,,Exclude
 RXP 100MA 1-IN-SCH-40-TERMINA,,Exclude
 RXP 100MA 1-IN-SCH-40-TERMINAL,,Exclude
 RXP 12590ELB 1-1/4-90D-SCH-40-,,Exclude
-RXP 125CPL 1-1/4-CONDUIT-SCH-4,,Conduit
+RXP 125CPL 1-1/4-CONDUIT-SCH-4,,Exclude
 RXP 125LB 1-1/4-TYPE-LB,,Exclude
 RXP 125MA 1-1/4-SCH-40-TERMINA,,Exclude
 RXP 12X12X6-JCT-BOX-W/CVR 12X1,,Exclude
@@ -84647,10 +84647,10 @@ RXP 16X14X6-JCT-BOX-W/CVR 16X1,,Exclude
 RXP 20090ELB 2-IN-90D-SCH-40-E,,Exclude
 RXP 200BE 2-IN-BELL-END,,Exclude
 RXP 200CONDCLMP2HOLE 2-IN-2-HO,,Exclude
-RXP 200CPL 2-IN-CONDUIT-SCH-40,,Conduit
+RXP 200CPL 2-IN-CONDUIT-SCH-40,,Exclude
 RXP 200FA 2-IN-FEMALE-SCH-40-A,,Exclude
-RXP 250CPL 2-1/2-CONDUIT-SCH-4,,Conduit
-RXP 300CPL 3-IN-CONDUIT-SCH-40,,Conduit
+RXP 250CPL 2-1/2-CONDUIT-SCH-4,,Exclude
+RXP 300CPL 3-IN-CONDUIT-SCH-40,,Exclude
 RXP 300LB 3-IN-TYPE-LB,,Exclude
 RXP 300MA 3-IN-SCH-40-TERMINAL,,Exclude
 RXP 4009036ELB 4-IN-90DEG-36RA,,Exclude
@@ -84658,7 +84658,7 @@ RXP 4009048ELB 4-IN-90DEG-48RA,,Exclude
 RXP 40090ELB 4-IN-90D-SCH-40-E,,Exclude
 RXP 400BE 4-IN-BELL-END,,Exclude
 RXP 400CONDCLMP2HOLE 4-IN-2-HO,,Exclude
-RXP 400CPL 4-IN-CONDUIT-SCH-40,,Conduit
+RXP 400CPL 4-IN-CONDUIT-SCH-40,,Exclude
 RXP 400MA 4-IN-SCH-40-TERMINAL,,Exclude
 RXP 400PLUGPE 4-IN-CONDUIT-PLU,,Exclude
 RXP 400X300BSSPR 4X3-BASE-SPAC,,Exclude
@@ -84877,7 +84877,7 @@ Red wire nuts,,Exclude
 "Red, 2 AWG,  Stranded, 30'",,Wire
 "Red, phase tape",,Exclude
 Red/ Yellow Wire nuts,,Exclude
-Red/Orange Fluorescent Upside ,,Conduit
+Red/Orange Fluorescent Upside ,,Exclude
 Red/Yellow Spring Connector (1,,Exclude
 Red/Yellow Wire Nuts,,Exclude
 RedHeads 12-2 MC,,Exclude
@@ -85889,7 +85889,7 @@ SCH 80 3 IN. PVC,,Conduit
 SCH 80- 1 IN PVC,,Conduit
 SCH NN 22016-099AL01,,Exclude
 SCH OO,,Exclude
-SCH RR/CRESCENT C/SCH PP,,Conduit
+SCH RR/CRESCENT C/SCH PP,,Exclude
 SCH12 3/4 EMT STRAP,,Exclude
 SCH12 STRUT,,Exclude
 "SCH12 Strut Strap, 1-Piece, D",,Exclude
@@ -93726,7 +93726,7 @@ Telescoping Screw Gun Box Bra,,Exclude
 Telescoping Screw Gun Box Brac,,Exclude
 Telescoping Screw Gun Bracket,,Exclude
 "Telescoping Screw Gun Bracket,",,Exclude
-Temflex 3/4 in. x 60 ft. 1700 ,,Conduit
+Temflex 3/4 in. x 60 ft. 1700 ,,Exclude
 Temp LED String Lights,,Exclude
 Temp Light Bulbs,,Exclude
 Temp Light Stringer,,Exclude
@@ -95348,7 +95348,7 @@ VD Terminations & Certificatio,,Exclude
 VD/Access Control/CCTV/Interco,,Exclude
 VDV Apprentice Cable Installat,,Exclude
 VDW C5E350CMRWHT1000BX CAT 5E,,Exclude
-VDW C6CMRBLU1000BX CAT6 RISER ,,Wire
+VDW C6CMRBLU1000BX CAT6 RISER ,,Exclude
 VDW CAT6234PUTPCMRBL1000PB CA,,Wire
 VDW CAT6234PUTPCMRBL1000PB CAT,,Wire
 VDW CAT6234PUTPCMRWH1000PB CAT,,Wire
@@ -95997,7 +95997,7 @@ WET/DRY VAC,,Exclude
 WET/DRY VACUUM,,Exclude
 WETVAC FILTER,,Exclude
 WETVAC FILTERS,,Exclude
-WF 305 Intumescent Firestop Ca,,Conduit
+WF 305 Intumescent Firestop Ca,,Exclude
 WF FEE FOR PATHWAY INS,,Wire
 WF305 FIRE CAULK,,Exclude
 "WFRL-TRIM-4R-BS   4"" BLACK TRI",,Exclude
@@ -98807,7 +98807,7 @@ Zorro G1974716 uni bit,,Exclude
 "[Ethernet Wire] Cat 6, Non-Ple",,Wire
 "[Ethernet Wire] Cat 6, Plenum",,Wire
 "[Ethernet Wire] Cat 6, Plenum,",,Wire
-"[Ethernet Wire] Cat 6, Riser ",,Wire
+"[Ethernet Wire] Cat 6, Riser ",,Exclude
 "[Fender Washer]  1/4"" ID, 1"" O",,Exclude
 [Fender Washer] Stainless Ste,,Exclude
 [Fender Washer] Stainless Stee,,Exclude
@@ -103007,8 +103007,8 @@ reduce bushings 1-1/4-1,,Exclude
 reducing bushing,,Exclude
 reducing bushing 1” x 3/4”,,Exclude
 reducing bushings 1/2” to 3/4”,,Exclude
-reducing crimp sleve for 4/0 t,,Wire
-reducing pins 4/0 to 2/0,,Wire
+reducing crimp sleve for 4/0 t,,Exclude
+reducing pins 4/0 to 2/0,,Exclude
 reducing washer,,Exclude
 "reducing washers 1 "" to 3/4""",,Exclude
 "reducing washers 1"" to 3/4""",,Exclude
