@@ -2,7 +2,7 @@ import pandas as pd
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-import polars as pl
+# import polars as pl
 
 # Conduit types, Wire types
 
@@ -170,6 +170,9 @@ df['ActualLabel'] = (df['Description'].apply(classify_item))
 df_conduit = df[df['ActualLabel'].str.contains("Conduit", case=False)]
 df_conduit['ConduitType'] = df_conduit['Description'].apply(classify_conduit)
 df_conduit_types = df_conduit[['Description', 'ConduitType']]
+
+df_wire = df[df['ActualLabel'].str.contains("wire", case=False)]
+df_wire = df_wire[["Description", "ActualLabel"]]
 # Get a random sample of 100 records of each label type
 df = df.groupby('ActualLabel', group_keys=False,).apply(lambda x: x.sample(n=10)).reset_index(drop=True)
 # df_conduit_types = df_conduit_types.groupby('ConduitType', group_keys=False).apply(lambda x: x.sample(n=100)).reset_index(drop=True)
@@ -191,6 +194,7 @@ df = df.groupby('ActualLabel', group_keys=False,).apply(lambda x: x.sample(n=10)
 # df.to_csv('./assets/classified_conduit.csv', index=False)
 df_conduit.to_csv('./assets/conduit_types.csv', index=False)
 df_conduit_types.to_csv('./assets/conduit_type_train.csv', index=False)
+df_wire.to_csv("./assets/wire_main.csv", index=False)
 
 # test_data_df = df.groupby('Label', group_keys=False,).apply(lambda x: x.sample(n=100)).reset_index(drop=True)
 # test_data_df.to_csv("./assets/confusion_matrix_test_data.csv")
