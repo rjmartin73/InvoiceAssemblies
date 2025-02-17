@@ -1,28 +1,51 @@
 import re
+import pandas as pd
 
 size_patterns = {
     '3-1/2"': re.compile(r'(?<!\d)3[-| ]1/2(?!\d)'),
     '2-1/2"': re.compile(r'(?<!\d)2[-| ]1/2(?!\d)'),
-    '1-3/4': re.compile(r'(?<!/d)1[-| ]3/4(?!\d)'),
+    '1-3/4"': re.compile(r'(?<!/d)1[-| ]3/4(?!\d)'),
     '1-1/2"': re.compile(r'(?<!\d)1[-| ]1/2(?!\d)'),
     '1-1/4"': re.compile(r'(?<!\d)1[-| ]1/4(?!\d)'),
     '3/4"': re.compile(r'(?<!\d)3/4(?!\d)'),
     '1/2"': re.compile(r'(?<!\d)1/2(?!\d)'),
-    '4"': re.compile(r'(?<!\d)4'),
-    '3"': re.compile(r'(?<!\d)3'),
-    '2"': re.compile(r'(?<!\d)2'),
-    '1"': re.compile(r'(?<!\d)1'),
+    '6"': re.compile(r'(?<!\d)6[”|"|in| |.]|(?<!\d)6$'),
+    '5"': re.compile(r'(?<!\d)5[”|"|in| |.]|(?<!\d)5$'),
+    '4"': re.compile(r'(?<!\d)4[”|"|in| |.]|(?<!\d)4$'),
+    '3"': re.compile(r'(?<!\d)3[”|"|in| |.]|(?<!\d)3$'),
+    '2"': re.compile(r'(?<!\d)2[”|"|in| |.]|(?<!\d)2$'),
+    '1"': re.compile(r'(?<!\d)1[”|"|in| |.]|(?<!\d)1$'),
 }
 
-description = '"1/2"" PVC Conduit, 10\', Sche"'
+df = pd.read_csv("./assets/conduit_types.csv")
+# print (df.describe())
+
+
+# description = '"2- 1/2"" PVC Conduit, 10\', Sche"'
 
 def get_conduit_size(description):
+    description=description.replace("- ", " ").replace(" -", " ") 
     for size, pattern in size_patterns.items():
         if pattern.search(description):
-            return f'Conduit-{size}'  # ✅ Correctly returns the first match
-    return 'Conduit-UNK'  # ✅ Returns UNK only if no match is found
+            return f'{size}'  # ✅ Correctly returns the first match
+    return 'UNK'  # ✅ Returns UNK only if no match is found
 
-print(get_conduit_size(description=description.replace("- ", " ").replace(" -", " ")))
+
+df["ConduitDiameter"] = df["Description"].apply(get_conduit_size)
+# def size_conduit():
+#     for x, y in df[df["ActualLabel"], df["Description"]]:
+#         print(f"{y} {x} {get_conduit_size(y)}")
+
+df["AssemblyDescription"] = df["ConduitDiameter"].astype(str) + ' ' + df["ConduitType"].astype(str)
+df["AssemblyDescription"] = df["AssemblyDescription"].str.replace('""', '"', regex=False)
+
+df_size_training = df[["Description", "AssemblyDescription"]]
+df_size_training = df_size_training.sample(n=2000, random_state=42)
+
+
+df_size_training.to_csv("./assets/conduit_sized.csv", index=False)
+
+# print(get_conduit_size(description=description.replace("- ", " ").replace(" -", " ")))
 
 
 #  '1/2"': re.compile(r'(?<!\d)1/2(?!\d)'),

@@ -161,6 +161,8 @@ cython_debug/
 bert_conduit_model/
 bert_trainer.ipynb
 *.ipynb
-bert_conduit_model/checkpoint-290/training_args.bin
+bert_conduit_model/
 assembly_ml_step1.py
 bert_trainer_initial.py
+models/
+bert_conduit_type_model/
