@@ -785,7 +785,9 @@ RACO 509 3X2 OLD WORK CONDUIT ,Conduit,UNK
 "1000' 1-1/4"" smurf tube",Conduit - ENT,CONDUIT - ENT
 "1000' 1"" smurf tube",Conduit - ENT,CONDUIT - ENT
 "3/4"" smurf tube",Conduit - ENT,CONDUIT - ENT
+"1/2"" EMT to MC Cable transiti",Conduit - EMT,CONDUIT - EMT
 "200' 2"" EMT",Conduit - EMT,CONDUIT - EMT
+"1/2"" EMT to MC Cable transitio",Conduit - EMT,CONDUIT - EMT
 "4"" EMT ",Conduit - EMT,CONDUIT - EMT
 "[ENT] 1"", 100'",Conduit,UNK
 2” Ridgid Conduit,Conduit - PVC,CONDUIT - PVC
@@ -1421,6 +1423,7 @@ XENTURY ADJ,Conduit,UNK
 "1"" PVC TA's",Conduit - PVC,CONDUIT - PVC
 1’ PVC SCHEDULE 80,Conduit - PVC,CONDUIT - PVC
 3/4 PVC SCHEDULE 80,Conduit - PVC,CONDUIT - PVC
+"4"" southwire (topaz) EMT",Conduit - EMT,CONDUIT - EMT
 2 1/2 inch emt 10ft sticks,Conduit - EMT,CONDUIT - EMT
 "EMT Conduit, 3"", Steel, 10'",Conduit - EMT,CONDUIT - EMT
 "EMT Conduit, 1-1/4"", Steel, 10",Conduit - EMT,CONDUIT - EMT
@@ -1632,6 +1635,7 @@ POW PS-1300-AS-1-1/2-EG PIPE C,Conduit,UNK
 "1"" PVC CONDUIT SCHEDULE 40",Conduit - PVC,CONDUIT - PVC
 2” PVC LB THREADED,Conduit - PVC,CONDUIT - PVC
 1 1/2 pvc ma's,Conduit - PVC,CONDUIT - PVC
+2”Rigid Conduit/bar For Wire S,Conduit - PVC,CONDUIT - PVC
 "1-1/4"" PVC Conduit, 10, Schedu",Conduit - PVC,CONDUIT - PVC
 "[PVC] 1 1/4"", Schedule 40, 20'",Conduit - PVC,CONDUIT - PVC
 1-1/2” PvC,Conduit - PVC,CONDUIT - PVC
